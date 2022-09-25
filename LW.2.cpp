@@ -9,47 +9,56 @@
 
 using namespace std;
 
-class Detail {
+class Detail
+{
     int id;
     string name;
     int mass;
+    
+    static int counter;    //счетчик объектов класса
     
     friend class Control;
     
     public:
     Detail();
-    Detail(int new_id, string new_name, int new_mass);
+    Detail(string new_name, int new_mass);
     ~Detail();
     
-    friend void show(Detail object);
+    friend void show(Detail object);    //метод вывода содержимого объекта класса на экран
 };
+
+int Detail::counter = 0;
 
 class Control
 {
     public:
-    void set_mass(Detail &det);
+    void setMass(Detail &det);    //метод установки значения атрибута mass класса Detail
     
 };
 
 Detail::Detail()    //конструктор по умолчанию
 {
-    id = 30008002;
     name = "Gear";
     mass = 3;
+    
+    counter++;
+    id = counter;
     
     cout << "Объект проинициализирован по умолчанию" << endl << endl;
 }
 
-Detail::~Detail()
+Detail::~Detail()    //деструктор
 {
-    cout << "Данные разрушены" << endl << endl;
+//    cout << "Данные разрушены" << endl << endl;
 }
 
-Detail::Detail(int new_id, string new_name, int new_mass)    //конструктор инициализации
+Detail::Detail(string new_name, int new_mass)    //конструктор инициализации
 {
-    if(new_id >= -2147483648 && new_id <= 2147483647) id = new_id;
     name = new_name;
-    if(new_mass >= -2147483648 && new_mass <= 2147483647) mass = new_mass;
+    mass = new_mass;
+    
+    counter++;
+    id = counter;
     
     cout << "Объект проинициализирован" << endl << endl;
 }
@@ -59,15 +68,22 @@ void show(Detail object)
     cout << "Информация о детали:" << endl;
     cout << "Уникальный номер: " << object.id << endl;
     cout << "Наименование: " << object.name << endl;
-    cout << "Масса: " << object.mass << endl;
+    cout << "Масса: " << object.mass << endl << endl;
 }
 
-void Control::set_mass(Detail &det)
+void Control::setMass(Detail &det)
 {
     int control_mass;
     
     cout << "Введите вес детали: ";
     cin >> control_mass;
+    while(cin.fail())    //если введено не число
+    {
+        cin.clear();    //сброс состояния ошибки
+        cin.ignore(100, '\n');    //очистка содержимого буфера ввода
+        cout << "Значение переменной вышло за реальный диапазон значений, повторите попытку: ";
+        cin >> control_mass;
+    }
     cout << endl;
     
     det.mass = control_mass;
@@ -75,42 +91,29 @@ void Control::set_mass(Detail &det)
 
 int main()
 {
-    Detail gear, spindle(30008039, "Spindle", 5);
+    Detail gear("Bracket", 100), spindle("Spindle", 5);
     Control ctrl;
     
-    cout << "До обработки: " << endl;
-    show(gear);
+    void beforeAfter(Detail &object, Control ctrl);    //функция вывода содержимого объектов класса до и                                                       после обработки методом класса Control
+    beforeAfter(gear, ctrl);
     
-    ctrl.set_mass(gear);
+    beforeAfter(spindle, ctrl);
+
+    Detail details[3];
     
-    cout << "После обработки: " << endl;
-    show(gear);
-    
-    cout << "До обработки: " << endl;
-    show(spindle);
-    
-    ctrl.set_mass(spindle);
-    
-    cout << "После обработки: " << endl;
-    show(spindle);
-    
-    Detail details[3] = {{37002020, "Bracket", 10}, {37106003, "Adapter", 7}, {30007009, "Piston", 100}};
-    
-    cout << "До обработки: " << endl;
     for(int i=0; i<3; i++)
-        show(details[i]);
-    
-    cout << "После обработки: " << endl;
-    for(int i=0; i<3; i++) {
-        ctrl.set_mass(details[i]);
-        show(details[i]);
-    }
+        beforeAfter(details[i], ctrl);
     
     return 0;
 }
 
-//Кронштейн - 37002020 - 10
-//Переходник - 37106003 - 7
-//Шестерня - 30008002 - 3
-//Шпиндель - 30008039 - 5
-//Поршень - 30007009 - 100
+void beforeAfter(Detail &object, Control ctrl)
+{
+    cout << "До обработки: " << endl;
+    show(object);
+    
+    ctrl.setMass(object);
+    
+    cout << "После обработки: " << endl;
+    show(object);
+}
