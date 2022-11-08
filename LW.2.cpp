@@ -11,11 +11,7 @@ using namespace std;
 
 class Detail
 {
-    int id;
-    string name;
-    int mass;
-    
-    static int counter;    //счетчик объектов класса
+    friend void show(Detail object);    //метод вывода содержимого объекта класса на экран
     
     friend class Control;
     
@@ -24,7 +20,12 @@ class Detail
     Detail(string new_name, int new_mass);
     ~Detail();
     
-    friend void show(Detail object);    //метод вывода содержимого объекта класса на экран
+    private:
+    int id;
+    string name;
+    int mass;
+    
+    static int counter;    //счетчик объектов класса
 };
 
 int Detail::counter = 0;
@@ -38,11 +39,11 @@ class Control
 
 Detail::Detail()    //конструктор по умолчанию
 {
-    name = "Gear";
-    mass = 3;
-    
     counter++;
     id = counter;
+    
+    name = "Gear";
+    mass = 3;
     
     cout << "Объект проинициализирован по умолчанию" << endl << endl;
 }
@@ -54,11 +55,11 @@ Detail::~Detail()    //деструктор
 
 Detail::Detail(string new_name, int new_mass)    //конструктор инициализации
 {
-    name = new_name;
-    mass = new_mass;
-    
     counter++;
     id = counter;
+    
+    name = new_name;
+    mass = new_mass;
     
     cout << "Объект проинициализирован" << endl << endl;
 }
@@ -91,15 +92,13 @@ void Control::setMass(Detail &det)
 
 int main()
 {
-    Detail gear("Bracket", 100), spindle("Spindle", 5);
+    Detail gear("Bracket", 100), spindle("Spindle", 5), details[3];
     Control ctrl;
     
     void beforeAfter(Detail &object, Control ctrl);    //функция вывода содержимого объектов класса до и                                                       после обработки методом класса Control
     beforeAfter(gear, ctrl);
     
     beforeAfter(spindle, ctrl);
-
-    Detail details[3];
     
     for(int i=0; i<3; i++)
         beforeAfter(details[i], ctrl);
