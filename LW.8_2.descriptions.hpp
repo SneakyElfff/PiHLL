@@ -27,19 +27,21 @@ public:
     Matrix(const Matrix &new_Matrix);    //конструктор копирования
     ~Matrix();
     
-    T get(int i, int j);
+    T getRow();
+    T getCol();
     void set(int i, int j, T value);
     
-    void add_row(int ind, T *new_row);
-    void add_col(int ind, T *new_col);
-    void del_row(int ind);
-    void del_col(int ind);
+    void addRow(int ind, T *new_row);
+    void addCol(int ind, T *new_col);
+    void delRow(int ind);
+    void delCol(int ind);
     void search(const T &elem);
     void show();
     
     Matrix<T> operator = (const Matrix<T> &);
     bool operator == (const Matrix<T>);
 };
+
 
 class MatrixExceptions
 {
@@ -55,7 +57,7 @@ class wrongSize : public MatrixExceptions
 public:
     string what()
     {
-        return "Error. Wrong size.";
+        return "Ошибка. Матрицы с такими размерами не существует.";
     }
 };
 
@@ -64,7 +66,7 @@ class badAllocation : public MatrixExceptions
 public:
     string what()
     {
-        return "Error. Bad memory allocation.";
+        return "Ошибка выделения памяти.";
     }
 };
 
@@ -73,9 +75,10 @@ class wrongParameters : public MatrixExceptions
 public:
     string what()
     {
-        return "Error. Wrong parameters acquired.";
+        return "Ошибка. Невозможно установить значение.";
     }
 };
+
 
 //конструкторы, деструктор
 template<class T>
@@ -143,10 +146,19 @@ Matrix<T>::~Matrix()
 }
 
 template<class T>
-T Matrix<T>::get(int i, int j)
+T Matrix<T>::getRow()
 {
     if(rows > 0 && cols > 0)
-        return array[i][j];
+        return rows;
+    else
+        return 0;
+}
+
+template<class T>
+T Matrix<T>::getCol()
+{
+    if(rows > 0 && cols > 0)
+        return cols;
     else
         return 0;
 }
@@ -203,8 +215,11 @@ bool Matrix<T>::operator == (const Matrix<T> comp)
 
 //методы
 template<class T>
-void Matrix<T>::add_row(int ind, T *new_row)
+void Matrix<T>::addRow(int ind, T *new_row)
 {
+    if(ind < 0 || ind > rows)
+        throw wrongParameters();
+    
     rows++;
     
     T **temp = array;
@@ -231,8 +246,11 @@ void Matrix<T>::add_row(int ind, T *new_row)
 }
 
 template<class T>
-void Matrix<T>::add_col(int ind, T *new_col)
+void Matrix<T>::addCol(int ind, T *new_col)
 {
+    if(ind < 0 || ind > cols)
+        throw wrongParameters();
+    
     cols++;
     
     T **temp = array;
@@ -259,7 +277,7 @@ void Matrix<T>::add_col(int ind, T *new_col)
 }
 
 template<class T>
-void Matrix<T>::del_row(int ind)
+void Matrix<T>::delRow(int ind)
 {
     if(ind < 0 || ind > rows)
         throw wrongParameters();
@@ -286,7 +304,7 @@ void Matrix<T>::del_row(int ind)
 }
 
 template<class T>
-void Matrix<T>::del_col(int ind)
+void Matrix<T>::delCol(int ind)
 {
     if(ind < 0 || ind > cols)
         throw wrongParameters();
@@ -315,11 +333,17 @@ void Matrix<T>::del_col(int ind)
 template<class T>
 void Matrix<T>::search(const T &elem)
 {
+    bool flag = false;
+    
     for(int i=0; i<rows; i++)
         for(int j=0; j<cols; j++)
             if(array[i][j] == elem)
-                cout << endl << "Элемент " << elem << " находится на пересечении " << i << "-ой строки и " << j << "-го столбца." << endl << endl;
-    cout << endl << "Заданный элемент не найден" << endl;
+            {
+                cout << endl << "Элемент " << elem << " находится на пересечении " << i << "-ой строки и " << j << "-го столбца." << endl;
+                flag = true;
+            }
+    
+    if(!flag) cout << endl << "Заданный элемент не найден" << endl;
 }
 
 template<class T>
