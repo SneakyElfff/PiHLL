@@ -203,7 +203,7 @@ int Queue<T>::Search(T query, bool flag)
         return ind;
     }
     
-    catch(string)
+    catch(const char *)
     {
         cout << "Ошибка. Очередь пуста." << endl;
         exit(-1);
