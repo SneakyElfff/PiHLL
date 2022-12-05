@@ -10,7 +10,7 @@
 #include <string>
 #include <vector>
 #include "functions.hpp"
-#define mode "txt file.txt"
+#define mode "binfile.txt"
 
 using namespace std;
 
@@ -41,7 +41,7 @@ vector<fpos_t> Search(string file, string query)    //функция поиск�
 {
     try
     {
-        ifstream in(mode, ios_base::binary | ios_base::in);    //открыть файл для чтения, используя конструктор
+        ifstream in(file, ios_base::in);    //открыть файл для чтения, используя конструктор
         if(!in.is_open()) throw "file_error";
 
         in.seekg(0, ios_base::beg);
@@ -107,7 +107,7 @@ vector<fpos_t> Search(string file, string query)    //функция поиск�
     }
 }
 
-void Delete(string file, string condition)
+void Delete(string file, string condition, int &n)
 {
     try
     {
@@ -119,7 +119,7 @@ void Delete(string file, string condition)
         
         vector<fpos_t> range (2);
         char temp;
-        int i = 0;
+        int i = 1;
         fpos_t end = 0;
         
         out.seekp(0, ios_base::end);
@@ -128,10 +128,10 @@ void Delete(string file, string condition)
         
         range = Search(file, condition);
         
-        in.seekg(range[1], ios_base::beg);    //откуда переносить данные на место удаляемой части
+        in.seekg(range[1]-1, ios_base::beg);    //откуда переносить данные на место удаляемой части
         out.seekp(range[0], ios_base::beg);    //начало удаляемой части
         
-        while(out.tellp() != end)    //пока не достигнут конец файла
+        while(in.tellg() != end)    //пока не достигнут конец файла
         {
             in.read((char*)&temp, sizeof(char));
             out.write((char*)&temp, sizeof(char));
@@ -141,6 +141,16 @@ void Delete(string file, string condition)
             i++;
         }
         
+        temp = '\n';
+        while(i != end)    //пока не достигнут конец файла
+        {
+            out.write((char*)&temp, sizeof(char));
+            out.seekp(range[0]+i, ios_base::beg);
+            
+            i++;
+        }
+        
+        n--;
         in.close();
         out.close();
     }
@@ -243,7 +253,7 @@ int main()
                         {
                             cout << endl << "Введите фамилию сотрудника, которого необходимо уволить: ";
                             Input(query);
-                            Delete("text file.txt", query);
+                            Delete("text file.txt", query, n);
                             break;
                         }
                             
@@ -300,7 +310,7 @@ int main()
                         {
                             cout << endl << "Введите фамилию сотрудника, которого необходимо уволить: ";
                             Input(query);
-                            Delete(mode, query);
+                            Delete(mode, query, n);
                             break;
                         }
                             
