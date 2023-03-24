@@ -9,13 +9,12 @@ import org.springframework.web.bind.annotation.*;
 import LW1.service.CalculationService;
 
 @RestController    //implements logics of client's requests
-public class CalculationController
-{
+public class CalculationController {
     private final CalculationService obj;
 
-    @Autowired    //enables Spring to implement dependency, so that Spring could send the object of Service realisation to Controller's constructor
-    public CalculationController(CalculationService obj)
-    {
+    @Autowired
+    //enables Spring to implement dependency, so that Spring could send the object of Service realisation to Controller's constructor
+    public CalculationController(CalculationService obj) {
         this.obj = obj;
     }
 
@@ -26,10 +25,9 @@ public class CalculationController
 //        return ResponseEntity.ok("valid");
 //    }
 
-    @GetMapping(value = "/calc/mean/{num1}/{num2}/{num3}/{num4}")
-    public ResponseEntity<Calculation> findMean(@Valid @PathVariable(name = "num1") Double num1, @Valid @PathVariable(name = "num2") Double num2, @Valid @PathVariable(name = "num3") Double num3, @Valid @PathVariable(name = "num4") Double num4)
-    {
-        Calculation result = new Calculation();    //to crash the program - final Calculation result = null;
+    @GetMapping(value = "/calc/mean/{num1}/{num2}/{num3}/{num4}")    //sends requests to classes-controllers
+    public ResponseEntity<Calculation> findMean(@Valid @PathVariable(name = "num1") Double num1, @Valid @PathVariable(name = "num2") Double num2, @Valid @PathVariable(name = "num3") Double num3, @Valid @PathVariable(name = "num4") Double num4) {
+        final Calculation result = null;    //to crash the program - final Calculation result = null;
         result.setNum1(num1);
         result.setNum2(num2);
         result.setNum3(num3);
@@ -43,8 +41,7 @@ public class CalculationController
     }
 
     @GetMapping(value = "/calc/medium/{num1}/{num2}/{num3}/{num4}")
-    public ResponseEntity<Calculation> findMedium(@PathVariable(name = "num1") Double num1, @PathVariable(name = "num2") Double num2, @PathVariable(name = "num3") Double num3, @PathVariable(name = "num4") Double num4)
-    {
+    public ResponseEntity<Calculation> findMedium(@PathVariable(name = "num1") Double num1, @PathVariable(name = "num2") Double num2, @PathVariable(name = "num3") Double num3, @PathVariable(name = "num4") Double num4) {
         Calculation result = new Calculation();
         result.setNum1(num1);
         result.setNum2(num2);
