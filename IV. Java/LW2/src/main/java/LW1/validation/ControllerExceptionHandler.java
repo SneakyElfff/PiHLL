@@ -1,4 +1,4 @@
-package LW1.Validation;
+package LW1.validation;
 
 import java.util.Date;
 
