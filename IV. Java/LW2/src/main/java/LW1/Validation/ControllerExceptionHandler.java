@@ -10,17 +10,14 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
-import org.springframework.web.client.HttpClientErrorException;
 import org.springframework.web.context.request.WebRequest;
 
-@ControllerAdvice
-public class ControllerExceptionHandler
-{
+@ControllerAdvice    //allows handling exceptions across the whole application in one global handling component
+public class ControllerExceptionHandler {
     private static final Logger log = LogManager.getLogger(CalculationServiceImpl.class);
 
     @ExceptionHandler(Exception.class)
-    public ResponseEntity<ErrorMessage> GlobalExceptionHandler(Exception error, WebRequest request)
-    {
+    public ResponseEntity<ErrorMessage> globalExceptionHandler(Exception error, WebRequest request) {
         ErrorMessage message = new ErrorMessage(
                 HttpStatus.INTERNAL_SERVER_ERROR.value(),
                 new Date(),
@@ -29,25 +26,11 @@ public class ControllerExceptionHandler
 
         log.info("INTERNAL_SERVER_ERROR occurred");
 
-        return new ResponseEntity<ErrorMessage>(message, HttpStatus.INTERNAL_SERVER_ERROR);
-    }
-
-    @ExceptionHandler(HttpClientErrorException.NotFound.class)
-    public ResponseEntity<ErrorMessage> NotFoundException(Exception error, WebRequest request) {
-        ErrorMessage message = new ErrorMessage(
-                HttpStatus.NOT_FOUND.value(),
-                new Date(),
-                error.getMessage(),
-                request.getDescription(false));
-
-        log.info("NOT_FOUND_ERROR occurred");
-
-        return new ResponseEntity<ErrorMessage>(message, HttpStatus.NOT_FOUND);
+        return new ResponseEntity<>(message, HttpStatus.INTERNAL_SERVER_ERROR);
     }
 
     @ExceptionHandler(MethodArgumentNotValidException.class)
-    public ResponseEntity<?> customValidation(MethodArgumentNotValidException error)
-    {
+    public ResponseEntity<ErrorMessage> customValidation(MethodArgumentNotValidException error) {
         ErrorMessage message = new ErrorMessage(
                 HttpStatus.BAD_REQUEST.value(),
                 new Date(),
