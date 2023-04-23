@@ -1,5 +1,4 @@
 package LW1.controller;
-
 import LW1.actuator.CounterOfCalls;
 import LW1.model.Calculation;
 import LW1.service.CalculationServiceImpl;
