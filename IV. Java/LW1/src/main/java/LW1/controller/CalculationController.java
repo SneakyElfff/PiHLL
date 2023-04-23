@@ -1,7 +1,6 @@
 package LW1.controller;
 
 import LW1.actuator.CounterOfCalls;
-import LW1.aggregation.Aggregation;
 import LW1.model.Calculation;
 import LW1.service.CalculationServiceImpl;
 import jakarta.validation.Valid;
@@ -12,8 +11,6 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import LW1.service.CalculationService;
-
-import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -62,8 +59,6 @@ public class CalculationController {
         log.info("Bulk request received!");
         counter.incrementCounter();
 
-        Aggregation aggregation1 = new Aggregation(requests);
-
         List<Calculation> results = requests.stream()    //method stream creates a stream of elements of the "results" list, which allows to work with elements of collections
                 .filter(request -> request != null && request.getNum1() != null && request.getNum2() != null && request.getNum3() != null && request.getNum4() != null)
                 .map(request -> new Calculation(
@@ -73,13 +68,7 @@ public class CalculationController {
                 .collect(Collectors.toList());
         log.info("Data retrieved!");
 
-        Aggregation aggregation2 = new Aggregation(results);
-
-        List<Object> response = new ArrayList<>();
-        response.add(results);
-        response.add(aggregation1);
-        response.add(aggregation2);
-        return ResponseEntity.ok(response);
+        return new ResponseEntity<>(results, HttpStatus.OK);
     }
 
     @PostMapping(value = "/calc/medium/bulk/")
