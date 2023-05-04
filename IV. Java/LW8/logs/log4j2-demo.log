@@ -1,0 +1,1045 @@
+2023-05-04 13:10:36.725  INFO MacBook-Air-Nina.local --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [LW1.Lw1ApplicationTests]: Lw1ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-05-04 13:10:36.781  INFO MacBook-Air-Nina.local --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration LW1.LW1Application for test class LW1.Lw1ApplicationTests
+2023-05-04 13:10:36.952  INFO MacBook-Air-Nina.local --- [kground-preinit] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 8.0.0.Final
+2023-05-04 13:10:36.965  INFO MacBook-Air-Nina.local --- [           main] L.Lw1ApplicationTests                    : Starting Lw1ApplicationTests using Java 17.0.6 with PID 1830 (started by nina in /Users/nina/Java/LW1)
+2023-05-04 13:10:36.967  INFO MacBook-Air-Nina.local --- [           main] L.Lw1ApplicationTests                    : No active profile set, falling back to 1 default profile: "default"
+2023-05-04 13:10:37.430  INFO MacBook-Air-Nina.local --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-04 13:10:37.455  INFO MacBook-Air-Nina.local --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 20 ms. Found 1 JPA repository interfaces.
+2023-05-04 13:10:37.678  INFO MacBook-Air-Nina.local --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2023-05-04 13:10:37.898  INFO MacBook-Air-Nina.local --- [           main] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@45cd8607
+2023-05-04 13:10:37.899  INFO MacBook-Air-Nina.local --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2023-05-04 13:10:37.922  INFO MacBook-Air-Nina.local --- [           main] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-04 13:10:37.950  INFO MacBook-Air-Nina.local --- [           main] o.h.Version                              : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-05-04 13:10:38.089  INFO MacBook-Air-Nina.local --- [           main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-05-04 13:10:38.091  WARN MacBook-Air-Nina.local --- [           main] o.h.o.deprecation                        : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-05-04 13:10:38.377  INFO MacBook-Air-Nina.local --- [           main] o.h.m.i.EntityInstantiatorPojoStandard   : HHH000182: No default (no-argument) constructor for class: LW1.model.CalculationResultEntity (class must be instantiated by Interceptor)
+2023-05-04 13:10:38.423  INFO MacBook-Air-Nina.local --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-04 13:10:38.427  INFO MacBook-Air-Nina.local --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-04 13:10:38.435  INFO MacBook-Air-Nina.local --- [           main] L.s.CalculationServiceImpl               : Statistical data is sent
+2023-05-04 13:10:38.621  WARN MacBook-Air-Nina.local --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-04 13:10:38.894  INFO MacBook-Air-Nina.local --- [           main] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-05-04 13:10:38.935  INFO MacBook-Air-Nina.local --- [           main] L.Lw1ApplicationTests                    : Started Lw1ApplicationTests in 2.081 seconds (process running for 2.943)
+2023-05-04 13:10:39.030  INFO MacBook-Air-Nina.local --- [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-04 13:10:39.032  INFO MacBook-Air-Nina.local --- [ionShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2023-05-04 13:10:39.035  INFO MacBook-Air-Nina.local --- [ionShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2023-05-04 13:10:44.244  INFO MacBook-Air-Nina.local --- [kground-preinit] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 8.0.0.Final
+2023-05-04 13:10:44.266  INFO MacBook-Air-Nina.local --- [           main] L.LW1Application                         : Starting LW1Application using Java 17.0.6 with PID 1834 (/Users/nina/Java/LW1/target/classes started by nina in /Users/nina/Java/LW1)
+2023-05-04 13:10:44.268  INFO MacBook-Air-Nina.local --- [           main] L.LW1Application                         : No active profile set, falling back to 1 default profile: "default"
+2023-05-04 13:10:44.634  INFO MacBook-Air-Nina.local --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-04 13:10:44.657  INFO MacBook-Air-Nina.local --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19 ms. Found 1 JPA repository interfaces.
+2023-05-04 13:10:44.904  INFO MacBook-Air-Nina.local --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2023-05-04 13:10:44.908  INFO MacBook-Air-Nina.local --- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2023-05-04 13:10:44.908  INFO MacBook-Air-Nina.local --- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2023-05-04 13:10:44.908  INFO MacBook-Air-Nina.local --- [           main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-05-04 13:10:44.948  INFO MacBook-Air-Nina.local --- [           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2023-05-04 13:10:44.949  INFO MacBook-Air-Nina.local --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 665 ms
+2023-05-04 13:10:45.064  INFO MacBook-Air-Nina.local --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2023-05-04 13:10:45.210  INFO MacBook-Air-Nina.local --- [           main] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@48c5698
+2023-05-04 13:10:45.211  INFO MacBook-Air-Nina.local --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2023-05-04 13:10:45.228  INFO MacBook-Air-Nina.local --- [           main] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-04 13:10:45.247  INFO MacBook-Air-Nina.local --- [           main] o.h.Version                              : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-05-04 13:10:45.350  INFO MacBook-Air-Nina.local --- [           main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-05-04 13:10:45.350  WARN MacBook-Air-Nina.local --- [           main] o.h.o.deprecation                        : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-05-04 13:10:45.609  INFO MacBook-Air-Nina.local --- [           main] o.h.m.i.EntityInstantiatorPojoStandard   : HHH000182: No default (no-argument) constructor for class: LW1.model.CalculationResultEntity (class must be instantiated by Interceptor)
+2023-05-04 13:10:45.655  INFO MacBook-Air-Nina.local --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-04 13:10:45.662  INFO MacBook-Air-Nina.local --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-04 13:10:45.668  INFO MacBook-Air-Nina.local --- [           main] L.s.CalculationServiceImpl               : Statistical data is sent
+2023-05-04 13:10:45.788  WARN MacBook-Air-Nina.local --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-04 13:10:46.012  INFO MacBook-Air-Nina.local --- [           main] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-05-04 13:10:46.038  INFO MacBook-Air-Nina.local --- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2023-05-04 13:10:46.042  WARN MacBook-Air-Nina.local --- [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2023-05-04 13:10:46.043  INFO MacBook-Air-Nina.local --- [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-04 13:10:46.045  INFO MacBook-Air-Nina.local --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2023-05-04 13:10:46.048  INFO MacBook-Air-Nina.local --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2023-05-04 13:10:46.049  INFO MacBook-Air-Nina.local --- [           main] o.a.c.h.Http11NioProtocol                : Pausing ProtocolHandler ["http-nio-8080"]
+2023-05-04 13:10:46.049  INFO MacBook-Air-Nina.local --- [           main] o.a.c.c.StandardService                  : Stopping service [Tomcat]
+2023-05-04 13:10:46.052  INFO MacBook-Air-Nina.local --- [           main] o.a.c.h.Http11NioProtocol                : Stopping ProtocolHandler ["http-nio-8080"]
+2023-05-04 13:10:46.052  INFO MacBook-Air-Nina.local --- [           main] o.a.c.h.Http11NioProtocol                : Destroying ProtocolHandler ["http-nio-8080"]
+2023-05-04 13:10:46.063  INFO MacBook-Air-Nina.local --- [           main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-05-04 13:10:46.071 ERROR MacBook-Air-Nina.local --- [           main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2023-05-04 13:11:56.237  INFO MacBook-Air-Nina.local --- [kground-preinit] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 8.0.0.Final
+2023-05-04 13:11:56.268  INFO MacBook-Air-Nina.local --- [           main] L.LW1Application                         : Starting LW1Application using Java 17.0.6 with PID 2007 (/Users/nina/Java/LW1/target/classes started by nina in /Users/nina/Java/LW1)
+2023-05-04 13:11:56.269  INFO MacBook-Air-Nina.local --- [           main] L.LW1Application                         : No active profile set, falling back to 1 default profile: "default"
+2023-05-04 13:11:56.744  INFO MacBook-Air-Nina.local --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-04 13:11:56.769  INFO MacBook-Air-Nina.local --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 21 ms. Found 1 JPA repository interfaces.
+2023-05-04 13:11:57.053  INFO MacBook-Air-Nina.local --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2023-05-04 13:11:57.058  INFO MacBook-Air-Nina.local --- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2023-05-04 13:11:57.059  INFO MacBook-Air-Nina.local --- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2023-05-04 13:11:57.059  INFO MacBook-Air-Nina.local --- [           main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-05-04 13:11:57.099  INFO MacBook-Air-Nina.local --- [           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2023-05-04 13:11:57.100  INFO MacBook-Air-Nina.local --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 810 ms
+2023-05-04 13:11:57.231  INFO MacBook-Air-Nina.local --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2023-05-04 13:11:57.407  INFO MacBook-Air-Nina.local --- [           main] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@39c7fb0b
+2023-05-04 13:11:57.408  INFO MacBook-Air-Nina.local --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2023-05-04 13:11:57.431  INFO MacBook-Air-Nina.local --- [           main] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-04 13:11:57.460  INFO MacBook-Air-Nina.local --- [           main] o.h.Version                              : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-05-04 13:11:57.599  INFO MacBook-Air-Nina.local --- [           main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-05-04 13:11:57.600  WARN MacBook-Air-Nina.local --- [           main] o.h.o.deprecation                        : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-05-04 13:11:57.895  INFO MacBook-Air-Nina.local --- [           main] o.h.m.i.EntityInstantiatorPojoStandard   : HHH000182: No default (no-argument) constructor for class: LW1.model.CalculationResultEntity (class must be instantiated by Interceptor)
+2023-05-04 13:11:57.949  INFO MacBook-Air-Nina.local --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-04 13:11:57.954  INFO MacBook-Air-Nina.local --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-04 13:11:57.962  INFO MacBook-Air-Nina.local --- [           main] L.s.CalculationServiceImpl               : Statistical data is sent
+2023-05-04 13:11:58.091  WARN MacBook-Air-Nina.local --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-04 13:11:58.340  INFO MacBook-Air-Nina.local --- [           main] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-05-04 13:11:58.374  INFO MacBook-Air-Nina.local --- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2023-05-04 13:11:58.385  INFO MacBook-Air-Nina.local --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-04 13:11:58.397  INFO MacBook-Air-Nina.local --- [           main] L.LW1Application                         : Started LW1Application in 2.298 seconds (process running for 2.783)
+2023-05-04 13:12:48.952  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-04 13:12:48.952  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2023-05-04 13:12:48.953  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 0 ms
+2023-05-04 13:12:48.982  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 13:12:48.982  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] L.s.CalculationServiceImpl               : Updated number of calls: 1
+2023-05-04 13:12:49.031  INFO MacBook-Air-Nina.local --- [onPool-worker-1] L.s.CalculationServiceImpl               : The mean value was calculated
+2023-05-04 13:13:08.270  INFO MacBook-Air-Nina.local --- [nio-8080-exec-5] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 13:13:08.271  INFO MacBook-Air-Nina.local --- [nio-8080-exec-5] L.s.CalculationServiceImpl               : Updated number of calls: 2
+2023-05-04 13:21:48.849  INFO MacBook-Air-Nina.local --- [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-04 13:21:48.851  INFO MacBook-Air-Nina.local --- [ionShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2023-05-04 13:21:48.854  INFO MacBook-Air-Nina.local --- [ionShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2023-05-04 13:21:54.645  INFO MacBook-Air-Nina.local --- [kground-preinit] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 8.0.0.Final
+2023-05-04 13:21:54.669  INFO MacBook-Air-Nina.local --- [           main] L.LW1Application                         : Starting LW1Application using Java 17.0.6 with PID 2153 (/Users/nina/Java/LW1/target/classes started by nina in /Users/nina/Java/LW1)
+2023-05-04 13:21:54.671  INFO MacBook-Air-Nina.local --- [           main] L.LW1Application                         : No active profile set, falling back to 1 default profile: "default"
+2023-05-04 13:21:55.150  INFO MacBook-Air-Nina.local --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-04 13:21:55.175  INFO MacBook-Air-Nina.local --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 21 ms. Found 1 JPA repository interfaces.
+2023-05-04 13:21:55.467  INFO MacBook-Air-Nina.local --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2023-05-04 13:21:55.471  INFO MacBook-Air-Nina.local --- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2023-05-04 13:21:55.472  INFO MacBook-Air-Nina.local --- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2023-05-04 13:21:55.472  INFO MacBook-Air-Nina.local --- [           main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-05-04 13:21:55.513  INFO MacBook-Air-Nina.local --- [           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2023-05-04 13:21:55.514  INFO MacBook-Air-Nina.local --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 825 ms
+2023-05-04 13:21:55.655  INFO MacBook-Air-Nina.local --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2023-05-04 13:21:55.826  INFO MacBook-Air-Nina.local --- [           main] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7eee6c13
+2023-05-04 13:21:55.826  INFO MacBook-Air-Nina.local --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2023-05-04 13:21:55.853  INFO MacBook-Air-Nina.local --- [           main] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-04 13:21:55.877  INFO MacBook-Air-Nina.local --- [           main] o.h.Version                              : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-05-04 13:21:56.010  INFO MacBook-Air-Nina.local --- [           main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-05-04 13:21:56.011  WARN MacBook-Air-Nina.local --- [           main] o.h.o.deprecation                        : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-05-04 13:21:56.296  INFO MacBook-Air-Nina.local --- [           main] o.h.m.i.EntityInstantiatorPojoStandard   : HHH000182: No default (no-argument) constructor for class: LW1.model.CalculationResultEntity (class must be instantiated by Interceptor)
+2023-05-04 13:21:56.347  INFO MacBook-Air-Nina.local --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-04 13:21:56.358  INFO MacBook-Air-Nina.local --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-04 13:21:56.366  INFO MacBook-Air-Nina.local --- [           main] L.s.CalculationServiceImpl               : Statistical data is sent
+2023-05-04 13:21:56.492  WARN MacBook-Air-Nina.local --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-04 13:21:56.716  INFO MacBook-Air-Nina.local --- [           main] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-05-04 13:21:56.743  INFO MacBook-Air-Nina.local --- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2023-05-04 13:21:56.757  INFO MacBook-Air-Nina.local --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-04 13:21:56.770  INFO MacBook-Air-Nina.local --- [           main] L.LW1Application                         : Started LW1Application in 2.251 seconds (process running for 2.817)
+2023-05-04 13:21:59.993  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-04 13:21:59.994  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2023-05-04 13:21:59.995  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 1 ms
+2023-05-04 13:22:00.020  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 13:22:00.020  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] L.s.CalculationServiceImpl               : Updated number of calls: 1
+2023-05-04 13:22:00.059  INFO MacBook-Air-Nina.local --- [onPool-worker-1] L.s.CalculationServiceImpl               : The mean value was calculated
+2023-05-04 13:22:00.064  INFO MacBook-Air-Nina.local --- [nio-8080-exec-3] L.s.CalculationServiceImpl               : INTERNAL_SERVER_ERROR occurred
+2023-05-04 13:24:50.014  INFO MacBook-Air-Nina.local --- [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-04 13:24:50.015  INFO MacBook-Air-Nina.local --- [ionShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2023-05-04 13:24:50.019  INFO MacBook-Air-Nina.local --- [ionShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2023-05-04 13:24:53.105  INFO MacBook-Air-Nina.local --- [kground-preinit] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 8.0.0.Final
+2023-05-04 13:24:53.127  INFO MacBook-Air-Nina.local --- [           main] L.LW1Application                         : Starting LW1Application using Java 17.0.6 with PID 2214 (/Users/nina/Java/LW1/target/classes started by nina in /Users/nina/Java/LW1)
+2023-05-04 13:24:53.129  INFO MacBook-Air-Nina.local --- [           main] L.LW1Application                         : No active profile set, falling back to 1 default profile: "default"
+2023-05-04 13:24:53.560  INFO MacBook-Air-Nina.local --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-04 13:24:53.589  INFO MacBook-Air-Nina.local --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 24 ms. Found 1 JPA repository interfaces.
+2023-05-04 13:24:53.879  INFO MacBook-Air-Nina.local --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2023-05-04 13:24:53.883  INFO MacBook-Air-Nina.local --- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2023-05-04 13:24:53.884  INFO MacBook-Air-Nina.local --- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2023-05-04 13:24:53.884  INFO MacBook-Air-Nina.local --- [           main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-05-04 13:24:53.925  INFO MacBook-Air-Nina.local --- [           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2023-05-04 13:24:53.926  INFO MacBook-Air-Nina.local --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 778 ms
+2023-05-04 13:24:54.054  INFO MacBook-Air-Nina.local --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2023-05-04 13:24:54.215  INFO MacBook-Air-Nina.local --- [           main] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@60c96eb4
+2023-05-04 13:24:54.216  INFO MacBook-Air-Nina.local --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2023-05-04 13:24:54.240  INFO MacBook-Air-Nina.local --- [           main] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-04 13:24:54.263  INFO MacBook-Air-Nina.local --- [           main] o.h.Version                              : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-05-04 13:24:54.393  INFO MacBook-Air-Nina.local --- [           main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-05-04 13:24:54.394  WARN MacBook-Air-Nina.local --- [           main] o.h.o.deprecation                        : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-05-04 13:24:54.673  INFO MacBook-Air-Nina.local --- [           main] o.h.m.i.EntityInstantiatorPojoStandard   : HHH000182: No default (no-argument) constructor for class: LW1.model.CalculationResultEntity (class must be instantiated by Interceptor)
+2023-05-04 13:24:54.719  INFO MacBook-Air-Nina.local --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-04 13:24:54.726  INFO MacBook-Air-Nina.local --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-04 13:24:54.736  INFO MacBook-Air-Nina.local --- [           main] L.s.CalculationServiceImpl               : Statistical data is sent
+2023-05-04 13:24:54.871  WARN MacBook-Air-Nina.local --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-04 13:24:55.108  INFO MacBook-Air-Nina.local --- [           main] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-05-04 13:24:55.143  INFO MacBook-Air-Nina.local --- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2023-05-04 13:24:55.154  INFO MacBook-Air-Nina.local --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-04 13:24:55.166  INFO MacBook-Air-Nina.local --- [           main] L.LW1Application                         : Started LW1Application in 2.19 seconds (process running for 2.775)
+2023-05-04 13:25:00.170  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-04 13:25:00.171  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2023-05-04 13:25:00.172  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 1 ms
+2023-05-04 13:25:00.197  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 13:25:00.197  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] L.s.CalculationServiceImpl               : Updated number of calls: 1
+2023-05-04 13:25:00.236  INFO MacBook-Air-Nina.local --- [onPool-worker-1] L.s.CalculationServiceImpl               : The mean value was calculated
+2023-05-04 13:25:00.241  INFO MacBook-Air-Nina.local --- [nio-8080-exec-3] L.s.CalculationServiceImpl               : INTERNAL_SERVER_ERROR occurred
+2023-05-04 13:27:30.711  INFO MacBook-Air-Nina.local --- [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-04 13:27:30.712  INFO MacBook-Air-Nina.local --- [ionShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2023-05-04 13:27:30.715  INFO MacBook-Air-Nina.local --- [ionShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2023-05-04 13:27:35.928  INFO MacBook-Air-Nina.local --- [kground-preinit] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 8.0.0.Final
+2023-05-04 13:27:35.951  INFO MacBook-Air-Nina.local --- [           main] L.LW1Application                         : Starting LW1Application using Java 17.0.6 with PID 2241 (/Users/nina/Java/LW1/target/classes started by nina in /Users/nina/Java/LW1)
+2023-05-04 13:27:35.953  INFO MacBook-Air-Nina.local --- [           main] L.LW1Application                         : No active profile set, falling back to 1 default profile: "default"
+2023-05-04 13:27:36.409  INFO MacBook-Air-Nina.local --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-04 13:27:36.435  INFO MacBook-Air-Nina.local --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 21 ms. Found 1 JPA repository interfaces.
+2023-05-04 13:27:36.732  INFO MacBook-Air-Nina.local --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2023-05-04 13:27:36.737  INFO MacBook-Air-Nina.local --- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2023-05-04 13:27:36.738  INFO MacBook-Air-Nina.local --- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2023-05-04 13:27:36.738  INFO MacBook-Air-Nina.local --- [           main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-05-04 13:27:36.785  INFO MacBook-Air-Nina.local --- [           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2023-05-04 13:27:36.786  INFO MacBook-Air-Nina.local --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 812 ms
+2023-05-04 13:27:36.946  INFO MacBook-Air-Nina.local --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2023-05-04 13:27:37.127  INFO MacBook-Air-Nina.local --- [           main] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2b3f7704
+2023-05-04 13:27:37.128  INFO MacBook-Air-Nina.local --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2023-05-04 13:27:37.156  INFO MacBook-Air-Nina.local --- [           main] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-04 13:27:37.185  INFO MacBook-Air-Nina.local --- [           main] o.h.Version                              : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-05-04 13:27:37.325  INFO MacBook-Air-Nina.local --- [           main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-05-04 13:27:37.326  WARN MacBook-Air-Nina.local --- [           main] o.h.o.deprecation                        : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-05-04 13:27:37.603  INFO MacBook-Air-Nina.local --- [           main] o.h.m.i.EntityInstantiatorPojoStandard   : HHH000182: No default (no-argument) constructor for class: LW1.model.CalculationResultEntity (class must be instantiated by Interceptor)
+2023-05-04 13:27:37.650  INFO MacBook-Air-Nina.local --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-04 13:27:37.654  INFO MacBook-Air-Nina.local --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-04 13:27:37.662  INFO MacBook-Air-Nina.local --- [           main] L.s.CalculationServiceImpl               : Statistical data is sent
+2023-05-04 13:27:37.805  WARN MacBook-Air-Nina.local --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-04 13:27:38.064  INFO MacBook-Air-Nina.local --- [           main] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-05-04 13:27:38.104  INFO MacBook-Air-Nina.local --- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2023-05-04 13:27:38.114  INFO MacBook-Air-Nina.local --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-04 13:27:38.128  INFO MacBook-Air-Nina.local --- [           main] L.LW1Application                         : Started LW1Application in 2.327 seconds (process running for 2.879)
+2023-05-04 13:27:42.601  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-04 13:27:42.602  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2023-05-04 13:27:42.603  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 1 ms
+2023-05-04 13:27:42.627  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 13:27:42.627  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] L.s.CalculationServiceImpl               : Updated number of calls: 1
+2023-05-04 13:27:42.665  INFO MacBook-Air-Nina.local --- [onPool-worker-1] L.s.CalculationServiceImpl               : The mean value was calculated
+2023-05-04 13:27:42.670  INFO MacBook-Air-Nina.local --- [nio-8080-exec-3] L.s.CalculationServiceImpl               : INTERNAL_SERVER_ERROR occurred
+2023-05-04 13:32:58.019  INFO MacBook-Air-Nina.local --- [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-04 13:32:58.021  INFO MacBook-Air-Nina.local --- [ionShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2023-05-04 13:32:58.024  INFO MacBook-Air-Nina.local --- [ionShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2023-05-04 13:33:02.255  INFO MacBook-Air-Nina.local --- [kground-preinit] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 8.0.0.Final
+2023-05-04 13:33:02.281  INFO MacBook-Air-Nina.local --- [           main] L.LW1Application                         : Starting LW1Application using Java 17.0.6 with PID 2299 (/Users/nina/Java/LW1/target/classes started by nina in /Users/nina/Java/LW1)
+2023-05-04 13:33:02.284  INFO MacBook-Air-Nina.local --- [           main] L.LW1Application                         : No active profile set, falling back to 1 default profile: "default"
+2023-05-04 13:33:02.759  INFO MacBook-Air-Nina.local --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-04 13:33:02.788  INFO MacBook-Air-Nina.local --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 24 ms. Found 1 JPA repository interfaces.
+2023-05-04 13:33:03.103  INFO MacBook-Air-Nina.local --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2023-05-04 13:33:03.107  INFO MacBook-Air-Nina.local --- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2023-05-04 13:33:03.108  INFO MacBook-Air-Nina.local --- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2023-05-04 13:33:03.108  INFO MacBook-Air-Nina.local --- [           main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-05-04 13:33:03.150  INFO MacBook-Air-Nina.local --- [           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2023-05-04 13:33:03.151  INFO MacBook-Air-Nina.local --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 848 ms
+2023-05-04 13:33:03.302  INFO MacBook-Air-Nina.local --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2023-05-04 13:33:03.494  INFO MacBook-Air-Nina.local --- [           main] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@e4ca109
+2023-05-04 13:33:03.495  INFO MacBook-Air-Nina.local --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2023-05-04 13:33:03.520  INFO MacBook-Air-Nina.local --- [           main] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-04 13:33:03.545  INFO MacBook-Air-Nina.local --- [           main] o.h.Version                              : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-05-04 13:33:03.688  INFO MacBook-Air-Nina.local --- [           main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-05-04 13:33:03.688  WARN MacBook-Air-Nina.local --- [           main] o.h.o.deprecation                        : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-05-04 13:33:03.984  INFO MacBook-Air-Nina.local --- [           main] o.h.m.i.EntityInstantiatorPojoStandard   : HHH000182: No default (no-argument) constructor for class: LW1.model.CalculationResultEntity (class must be instantiated by Interceptor)
+2023-05-04 13:33:04.028  INFO MacBook-Air-Nina.local --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-04 13:33:04.032  INFO MacBook-Air-Nina.local --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-04 13:33:04.046  INFO MacBook-Air-Nina.local --- [           main] L.s.CalculationServiceImpl               : Statistical data is sent
+2023-05-04 13:33:04.189  WARN MacBook-Air-Nina.local --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-04 13:33:04.436  INFO MacBook-Air-Nina.local --- [           main] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-05-04 13:33:04.470  INFO MacBook-Air-Nina.local --- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2023-05-04 13:33:04.480  INFO MacBook-Air-Nina.local --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-04 13:33:04.492  INFO MacBook-Air-Nina.local --- [           main] L.LW1Application                         : Started LW1Application in 2.365 seconds (process running for 3.0)
+2023-05-04 13:33:07.672  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-04 13:33:07.672  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2023-05-04 13:33:07.673  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 1 ms
+2023-05-04 13:33:07.700  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 13:33:07.700  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] L.s.CalculationServiceImpl               : Updated number of calls: 1
+2023-05-04 13:33:07.747  INFO MacBook-Air-Nina.local --- [onPool-worker-1] L.s.CalculationServiceImpl               : The mean value was calculated
+2023-05-04 13:33:07.753  INFO MacBook-Air-Nina.local --- [nio-8080-exec-3] L.s.CalculationServiceImpl               : INTERNAL_SERVER_ERROR occurred
+2023-05-04 13:33:34.150  INFO MacBook-Air-Nina.local --- [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-04 13:33:34.151  INFO MacBook-Air-Nina.local --- [ionShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2023-05-04 13:33:34.154  INFO MacBook-Air-Nina.local --- [ionShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2023-05-04 13:33:40.183  INFO MacBook-Air-Nina.local --- [kground-preinit] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 8.0.0.Final
+2023-05-04 13:33:40.206  INFO MacBook-Air-Nina.local --- [           main] L.LW1Application                         : Starting LW1Application using Java 17.0.6 with PID 2322 (/Users/nina/Java/LW1/target/classes started by nina in /Users/nina/Java/LW1)
+2023-05-04 13:33:40.207  INFO MacBook-Air-Nina.local --- [           main] L.LW1Application                         : No active profile set, falling back to 1 default profile: "default"
+2023-05-04 13:33:40.640  INFO MacBook-Air-Nina.local --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-04 13:33:40.671  INFO MacBook-Air-Nina.local --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 27 ms. Found 1 JPA repository interfaces.
+2023-05-04 13:33:40.985  INFO MacBook-Air-Nina.local --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2023-05-04 13:33:40.990  INFO MacBook-Air-Nina.local --- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2023-05-04 13:33:40.991  INFO MacBook-Air-Nina.local --- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2023-05-04 13:33:40.991  INFO MacBook-Air-Nina.local --- [           main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-05-04 13:33:41.042  INFO MacBook-Air-Nina.local --- [           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2023-05-04 13:33:41.043  INFO MacBook-Air-Nina.local --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 815 ms
+2023-05-04 13:33:41.182  INFO MacBook-Air-Nina.local --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2023-05-04 13:33:41.366  INFO MacBook-Air-Nina.local --- [           main] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4c6bba7d
+2023-05-04 13:33:41.367  INFO MacBook-Air-Nina.local --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2023-05-04 13:33:41.393  INFO MacBook-Air-Nina.local --- [           main] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-04 13:33:41.419  INFO MacBook-Air-Nina.local --- [           main] o.h.Version                              : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-05-04 13:33:41.568  INFO MacBook-Air-Nina.local --- [           main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-05-04 13:33:41.569  WARN MacBook-Air-Nina.local --- [           main] o.h.o.deprecation                        : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-05-04 13:33:41.862  INFO MacBook-Air-Nina.local --- [           main] o.h.m.i.EntityInstantiatorPojoStandard   : HHH000182: No default (no-argument) constructor for class: LW1.model.CalculationResultEntity (class must be instantiated by Interceptor)
+2023-05-04 13:33:41.904  INFO MacBook-Air-Nina.local --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-04 13:33:41.910  INFO MacBook-Air-Nina.local --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-04 13:33:41.919  INFO MacBook-Air-Nina.local --- [           main] L.s.CalculationServiceImpl               : Statistical data is sent
+2023-05-04 13:33:42.057  WARN MacBook-Air-Nina.local --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-04 13:33:42.303  INFO MacBook-Air-Nina.local --- [           main] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-05-04 13:33:42.335  INFO MacBook-Air-Nina.local --- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2023-05-04 13:33:42.351  INFO MacBook-Air-Nina.local --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-04 13:33:42.363  INFO MacBook-Air-Nina.local --- [           main] L.LW1Application                         : Started LW1Application in 2.321 seconds (process running for 2.737)
+2023-05-04 13:33:44.766  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-04 13:33:44.766  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2023-05-04 13:33:44.767  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 1 ms
+2023-05-04 13:33:44.786  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 13:33:44.786  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] L.s.CalculationServiceImpl               : Updated number of calls: 1
+2023-05-04 13:33:44.825  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] L.s.CalculationServiceImpl               : The mean value was calculated
+2023-05-04 13:33:44.827  INFO MacBook-Air-Nina.local --- [onPool-worker-1] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 13:35:43.668  INFO MacBook-Air-Nina.local --- [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-04 13:35:43.670  INFO MacBook-Air-Nina.local --- [ionShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2023-05-04 13:35:43.673  INFO MacBook-Air-Nina.local --- [ionShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2023-05-04 13:35:46.024  INFO MacBook-Air-Nina.local --- [kground-preinit] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 8.0.0.Final
+2023-05-04 13:35:46.047  INFO MacBook-Air-Nina.local --- [           main] L.LW1Application                         : Starting LW1Application using Java 17.0.6 with PID 2362 (/Users/nina/Java/LW1/target/classes started by nina in /Users/nina/Java/LW1)
+2023-05-04 13:35:46.050  INFO MacBook-Air-Nina.local --- [           main] L.LW1Application                         : No active profile set, falling back to 1 default profile: "default"
+2023-05-04 13:35:46.501  INFO MacBook-Air-Nina.local --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-04 13:35:46.522  INFO MacBook-Air-Nina.local --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17 ms. Found 1 JPA repository interfaces.
+2023-05-04 13:35:46.831  INFO MacBook-Air-Nina.local --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2023-05-04 13:35:46.836  INFO MacBook-Air-Nina.local --- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2023-05-04 13:35:46.837  INFO MacBook-Air-Nina.local --- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2023-05-04 13:35:46.837  INFO MacBook-Air-Nina.local --- [           main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-05-04 13:35:46.889  INFO MacBook-Air-Nina.local --- [           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2023-05-04 13:35:46.889  INFO MacBook-Air-Nina.local --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 820 ms
+2023-05-04 13:35:47.032  INFO MacBook-Air-Nina.local --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2023-05-04 13:35:47.217  INFO MacBook-Air-Nina.local --- [           main] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@c732e1c
+2023-05-04 13:35:47.219  INFO MacBook-Air-Nina.local --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2023-05-04 13:35:47.243  INFO MacBook-Air-Nina.local --- [           main] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-04 13:35:47.269  INFO MacBook-Air-Nina.local --- [           main] o.h.Version                              : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-05-04 13:35:47.415  INFO MacBook-Air-Nina.local --- [           main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-05-04 13:35:47.417  WARN MacBook-Air-Nina.local --- [           main] o.h.o.deprecation                        : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-05-04 13:35:47.712  INFO MacBook-Air-Nina.local --- [           main] o.h.m.i.EntityInstantiatorPojoStandard   : HHH000182: No default (no-argument) constructor for class: LW1.model.CalculationResultEntity (class must be instantiated by Interceptor)
+2023-05-04 13:35:47.761  INFO MacBook-Air-Nina.local --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-04 13:35:47.770  INFO MacBook-Air-Nina.local --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-04 13:35:47.776  INFO MacBook-Air-Nina.local --- [           main] L.s.CalculationServiceImpl               : Statistical data is sent
+2023-05-04 13:35:47.913  WARN MacBook-Air-Nina.local --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-04 13:35:48.169  INFO MacBook-Air-Nina.local --- [           main] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-05-04 13:35:48.206  INFO MacBook-Air-Nina.local --- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2023-05-04 13:35:48.218  INFO MacBook-Air-Nina.local --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-04 13:35:48.230  INFO MacBook-Air-Nina.local --- [           main] L.LW1Application                         : Started LW1Application in 2.33 seconds (process running for 2.922)
+2023-05-04 13:35:58.425  INFO MacBook-Air-Nina.local --- [nio-8080-exec-2] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-04 13:35:58.426  INFO MacBook-Air-Nina.local --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2023-05-04 13:35:58.427  INFO MacBook-Air-Nina.local --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Completed initialization in 1 ms
+2023-05-04 13:35:58.451  INFO MacBook-Air-Nina.local --- [nio-8080-exec-2] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 13:35:58.451  INFO MacBook-Air-Nina.local --- [nio-8080-exec-2] L.s.CalculationServiceImpl               : Updated number of calls: 1
+2023-05-04 13:35:58.489  INFO MacBook-Air-Nina.local --- [nio-8080-exec-2] L.s.CalculationServiceImpl               : The medium value was calculated
+2023-05-04 13:36:07.622  INFO MacBook-Air-Nina.local --- [nio-8080-exec-3] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 13:36:07.623  INFO MacBook-Air-Nina.local --- [nio-8080-exec-3] L.s.CalculationServiceImpl               : Updated number of calls: 2
+2023-05-04 13:36:07.630  INFO MacBook-Air-Nina.local --- [nio-8080-exec-3] L.s.CalculationServiceImpl               : The mean value was calculated
+2023-05-04 13:36:07.631  INFO MacBook-Air-Nina.local --- [onPool-worker-1] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 13:36:28.763  INFO MacBook-Air-Nina.local --- [nio-8080-exec-5] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 13:36:28.763  INFO MacBook-Air-Nina.local --- [nio-8080-exec-5] L.s.CalculationServiceImpl               : Updated number of calls: 3
+2023-05-04 13:36:28.764  INFO MacBook-Air-Nina.local --- [onPool-worker-1] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 13:36:42.268  INFO MacBook-Air-Nina.local --- [nio-8080-exec-7] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 13:36:42.268  INFO MacBook-Air-Nina.local --- [nio-8080-exec-7] L.s.CalculationServiceImpl               : Updated number of calls: 4
+2023-05-04 13:36:42.273  INFO MacBook-Air-Nina.local --- [nio-8080-exec-7] L.s.CalculationServiceImpl               : The mean value was calculated
+2023-05-04 13:36:42.273  INFO MacBook-Air-Nina.local --- [onPool-worker-1] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 13:37:05.579  INFO MacBook-Air-Nina.local --- [nio-8080-exec-9] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 13:37:05.580  INFO MacBook-Air-Nina.local --- [nio-8080-exec-9] L.s.CalculationServiceImpl               : Updated number of calls: 5
+2023-05-04 13:37:05.581  INFO MacBook-Air-Nina.local --- [onPool-worker-1] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 13:39:39.236  INFO MacBook-Air-Nina.local --- [nio-8080-exec-2] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 13:39:39.237  INFO MacBook-Air-Nina.local --- [nio-8080-exec-2] L.s.CalculationServiceImpl               : Updated number of calls: 6
+2023-05-04 13:39:39.242  INFO MacBook-Air-Nina.local --- [nio-8080-exec-2] L.s.CalculationServiceImpl               : The mean value was calculated
+2023-05-04 13:39:39.243  INFO MacBook-Air-Nina.local --- [onPool-worker-2] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 13:39:41.844  INFO MacBook-Air-Nina.local --- [nio-8080-exec-5] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 13:39:41.845  INFO MacBook-Air-Nina.local --- [nio-8080-exec-5] L.s.CalculationServiceImpl               : Updated number of calls: 7
+2023-05-04 13:39:41.846  INFO MacBook-Air-Nina.local --- [onPool-worker-2] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 13:39:43.246  INFO MacBook-Air-Nina.local --- [nio-8080-exec-7] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 13:39:43.246  INFO MacBook-Air-Nina.local --- [nio-8080-exec-7] L.s.CalculationServiceImpl               : Updated number of calls: 8
+2023-05-04 13:39:43.247  INFO MacBook-Air-Nina.local --- [onPool-worker-2] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 13:39:44.019  INFO MacBook-Air-Nina.local --- [nio-8080-exec-9] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 13:39:44.019  INFO MacBook-Air-Nina.local --- [nio-8080-exec-9] L.s.CalculationServiceImpl               : Updated number of calls: 9
+2023-05-04 13:39:44.020  INFO MacBook-Air-Nina.local --- [onPool-worker-2] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 13:39:44.779  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 13:39:44.779  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] L.s.CalculationServiceImpl               : Updated number of calls: 10
+2023-05-04 13:39:44.779  INFO MacBook-Air-Nina.local --- [onPool-worker-2] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 13:39:48.385  INFO MacBook-Air-Nina.local --- [nio-8080-exec-2] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 13:39:48.386  INFO MacBook-Air-Nina.local --- [nio-8080-exec-2] L.s.CalculationServiceImpl               : Updated number of calls: 11
+2023-05-04 13:39:48.387  INFO MacBook-Air-Nina.local --- [onPool-worker-2] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 13:43:49.558  WARN MacBook-Air-Nina.local --- [l-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m2s153ms).
+2023-05-04 14:47:34.619  WARN MacBook-Air-Nina.local --- [l-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h3m15s58ms).
+2023-05-04 14:50:39.395  WARN MacBook-Air-Nina.local --- [l-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m34s857ms).
+2023-05-04 14:52:29.674  WARN MacBook-Air-Nina.local --- [l-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m50s280ms).
+2023-05-04 14:53:48.925  WARN MacBook-Air-Nina.local --- [l-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=49s241ms).
+2023-05-04 14:57:31.709  WARN MacBook-Air-Nina.local --- [l-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m12s773ms).
+2023-05-04 16:18:39.109  INFO MacBook-Air-Nina.local --- [nio-8080-exec-7] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:18:39.111  INFO MacBook-Air-Nina.local --- [nio-8080-exec-7] L.s.CalculationServiceImpl               : Updated number of calls: 12
+2023-05-04 16:18:39.112  INFO MacBook-Air-Nina.local --- [onPool-worker-3] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:19:34.094  INFO MacBook-Air-Nina.local --- [nio-8080-exec-9] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:19:34.095  INFO MacBook-Air-Nina.local --- [nio-8080-exec-9] L.s.CalculationServiceImpl               : Updated number of calls: 13
+2023-05-04 16:19:34.103  INFO MacBook-Air-Nina.local --- [nio-8080-exec-9] L.s.CalculationServiceImpl               : The mean value was calculated
+2023-05-04 16:19:34.103  INFO MacBook-Air-Nina.local --- [onPool-worker-3] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:22:16.417  INFO MacBook-Air-Nina.local --- [nio-8080-exec-2] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:22:16.417  INFO MacBook-Air-Nina.local --- [nio-8080-exec-2] L.s.CalculationServiceImpl               : Updated number of calls: 14
+2023-05-04 16:22:16.422  INFO MacBook-Air-Nina.local --- [nio-8080-exec-2] L.s.CalculationServiceImpl               : The medium value was calculated
+2023-05-04 16:42:42.479  INFO MacBook-Air-Nina.local --- [nio-8080-exec-9] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:42:42.486  INFO MacBook-Air-Nina.local --- [nio-8080-exec-9] L.s.CalculationServiceImpl               : Updated number of calls: 15
+2023-05-04 16:42:42.499  INFO MacBook-Air-Nina.local --- [nio-8080-exec-9] L.s.CalculationServiceImpl               : The mean value was calculated
+2023-05-04 16:42:42.500  INFO MacBook-Air-Nina.local --- [onPool-worker-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:42:47.004  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:42:47.005  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] L.s.CalculationServiceImpl               : Updated number of calls: 16
+2023-05-04 16:43:36.761  INFO MacBook-Air-Nina.local --- [nio-8080-exec-3] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:36.761  INFO MacBook-Air-Nina.local --- [nio-8080-exec-3] L.s.CalculationServiceImpl               : Updated number of calls: 17
+2023-05-04 16:43:36.762  INFO MacBook-Air-Nina.local --- [onPool-worker-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:43:36.788  INFO MacBook-Air-Nina.local --- [nio-8080-exec-4] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:36.788  INFO MacBook-Air-Nina.local --- [nio-8080-exec-4] L.s.CalculationServiceImpl               : Updated number of calls: 18
+2023-05-04 16:43:36.806  INFO MacBook-Air-Nina.local --- [nio-8080-exec-6] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:36.807  INFO MacBook-Air-Nina.local --- [nio-8080-exec-6] L.s.CalculationServiceImpl               : Updated number of calls: 19
+2023-05-04 16:43:36.807  INFO MacBook-Air-Nina.local --- [onPool-worker-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:43:36.823  INFO MacBook-Air-Nina.local --- [nio-8080-exec-8] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:36.825  INFO MacBook-Air-Nina.local --- [nio-8080-exec-8] L.s.CalculationServiceImpl               : Updated number of calls: 20
+2023-05-04 16:43:36.842  INFO MacBook-Air-Nina.local --- [io-8080-exec-10] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:36.842  INFO MacBook-Air-Nina.local --- [io-8080-exec-10] L.s.CalculationServiceImpl               : Updated number of calls: 21
+2023-05-04 16:43:36.843  INFO MacBook-Air-Nina.local --- [onPool-worker-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:43:36.858  INFO MacBook-Air-Nina.local --- [nio-8080-exec-3] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:36.859  INFO MacBook-Air-Nina.local --- [nio-8080-exec-3] L.s.CalculationServiceImpl               : Updated number of calls: 22
+2023-05-04 16:43:36.874  INFO MacBook-Air-Nina.local --- [nio-8080-exec-4] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:36.874  INFO MacBook-Air-Nina.local --- [nio-8080-exec-4] L.s.CalculationServiceImpl               : Updated number of calls: 23
+2023-05-04 16:43:36.875  INFO MacBook-Air-Nina.local --- [onPool-worker-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:43:36.893  INFO MacBook-Air-Nina.local --- [nio-8080-exec-6] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:36.896  INFO MacBook-Air-Nina.local --- [nio-8080-exec-6] L.s.CalculationServiceImpl               : Updated number of calls: 24
+2023-05-04 16:43:36.912  INFO MacBook-Air-Nina.local --- [nio-8080-exec-7] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:36.913  INFO MacBook-Air-Nina.local --- [nio-8080-exec-7] L.s.CalculationServiceImpl               : Updated number of calls: 25
+2023-05-04 16:43:36.914  INFO MacBook-Air-Nina.local --- [onPool-worker-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:43:36.930  INFO MacBook-Air-Nina.local --- [nio-8080-exec-9] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:36.932  INFO MacBook-Air-Nina.local --- [nio-8080-exec-9] L.s.CalculationServiceImpl               : Updated number of calls: 26
+2023-05-04 16:43:49.991  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:49.994  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] L.s.CalculationServiceImpl               : Updated number of calls: 27
+2023-05-04 16:43:49.994  INFO MacBook-Air-Nina.local --- [onPool-worker-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:43:50.017  INFO MacBook-Air-Nina.local --- [nio-8080-exec-2] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:50.018  INFO MacBook-Air-Nina.local --- [nio-8080-exec-2] L.s.CalculationServiceImpl               : Updated number of calls: 28
+2023-05-04 16:43:50.018  INFO MacBook-Air-Nina.local --- [onPool-worker-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:43:50.035  INFO MacBook-Air-Nina.local --- [nio-8080-exec-5] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:50.036  INFO MacBook-Air-Nina.local --- [nio-8080-exec-5] L.s.CalculationServiceImpl               : Updated number of calls: 29
+2023-05-04 16:43:50.037  INFO MacBook-Air-Nina.local --- [onPool-worker-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:43:50.054  INFO MacBook-Air-Nina.local --- [nio-8080-exec-7] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:50.054  INFO MacBook-Air-Nina.local --- [nio-8080-exec-7] L.s.CalculationServiceImpl               : Updated number of calls: 30
+2023-05-04 16:43:50.055  INFO MacBook-Air-Nina.local --- [onPool-worker-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:43:50.074  INFO MacBook-Air-Nina.local --- [nio-8080-exec-9] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:50.074  INFO MacBook-Air-Nina.local --- [nio-8080-exec-9] L.s.CalculationServiceImpl               : Updated number of calls: 31
+2023-05-04 16:43:50.075  INFO MacBook-Air-Nina.local --- [onPool-worker-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:43:50.090  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:50.090  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] L.s.CalculationServiceImpl               : Updated number of calls: 32
+2023-05-04 16:43:50.090  INFO MacBook-Air-Nina.local --- [onPool-worker-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:43:50.104  INFO MacBook-Air-Nina.local --- [nio-8080-exec-2] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:50.106  INFO MacBook-Air-Nina.local --- [nio-8080-exec-2] L.s.CalculationServiceImpl               : Updated number of calls: 33
+2023-05-04 16:43:50.107  INFO MacBook-Air-Nina.local --- [onPool-worker-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:43:50.121  INFO MacBook-Air-Nina.local --- [nio-8080-exec-5] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:50.122  INFO MacBook-Air-Nina.local --- [nio-8080-exec-5] L.s.CalculationServiceImpl               : Updated number of calls: 34
+2023-05-04 16:43:50.123  INFO MacBook-Air-Nina.local --- [onPool-worker-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:43:50.135  INFO MacBook-Air-Nina.local --- [nio-8080-exec-7] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:50.138  INFO MacBook-Air-Nina.local --- [nio-8080-exec-7] L.s.CalculationServiceImpl               : Updated number of calls: 35
+2023-05-04 16:43:50.139  INFO MacBook-Air-Nina.local --- [onPool-worker-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:43:50.153  INFO MacBook-Air-Nina.local --- [nio-8080-exec-9] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:50.155  INFO MacBook-Air-Nina.local --- [nio-8080-exec-9] L.s.CalculationServiceImpl               : Updated number of calls: 36
+2023-05-04 16:43:50.156  INFO MacBook-Air-Nina.local --- [onPool-worker-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:43:50.170  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:50.170  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] L.s.CalculationServiceImpl               : Updated number of calls: 37
+2023-05-04 16:43:50.170  INFO MacBook-Air-Nina.local --- [onPool-worker-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:43:50.183  INFO MacBook-Air-Nina.local --- [nio-8080-exec-2] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:50.184  INFO MacBook-Air-Nina.local --- [nio-8080-exec-2] L.s.CalculationServiceImpl               : Updated number of calls: 38
+2023-05-04 16:43:50.184  INFO MacBook-Air-Nina.local --- [onPool-worker-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:43:50.205  INFO MacBook-Air-Nina.local --- [nio-8080-exec-5] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:50.209  INFO MacBook-Air-Nina.local --- [nio-8080-exec-5] L.s.CalculationServiceImpl               : Updated number of calls: 39
+2023-05-04 16:43:50.210  INFO MacBook-Air-Nina.local --- [onPool-worker-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:43:50.231  INFO MacBook-Air-Nina.local --- [nio-8080-exec-7] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:50.232  INFO MacBook-Air-Nina.local --- [nio-8080-exec-7] L.s.CalculationServiceImpl               : Updated number of calls: 40
+2023-05-04 16:43:50.232  INFO MacBook-Air-Nina.local --- [onPool-worker-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:43:50.249  INFO MacBook-Air-Nina.local --- [nio-8080-exec-9] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:50.250  INFO MacBook-Air-Nina.local --- [nio-8080-exec-9] L.s.CalculationServiceImpl               : Updated number of calls: 41
+2023-05-04 16:43:50.251  INFO MacBook-Air-Nina.local --- [onPool-worker-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:43:50.271  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:50.274  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] L.s.CalculationServiceImpl               : Updated number of calls: 42
+2023-05-04 16:43:50.274  INFO MacBook-Air-Nina.local --- [onPool-worker-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:43:50.296  INFO MacBook-Air-Nina.local --- [nio-8080-exec-2] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:50.299  INFO MacBook-Air-Nina.local --- [nio-8080-exec-2] L.s.CalculationServiceImpl               : Updated number of calls: 43
+2023-05-04 16:43:50.300  INFO MacBook-Air-Nina.local --- [onPool-worker-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:43:50.318  INFO MacBook-Air-Nina.local --- [nio-8080-exec-5] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:50.318  INFO MacBook-Air-Nina.local --- [nio-8080-exec-5] L.s.CalculationServiceImpl               : Updated number of calls: 44
+2023-05-04 16:43:50.319  INFO MacBook-Air-Nina.local --- [onPool-worker-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:43:50.340  INFO MacBook-Air-Nina.local --- [nio-8080-exec-7] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:50.340  INFO MacBook-Air-Nina.local --- [nio-8080-exec-7] L.s.CalculationServiceImpl               : Updated number of calls: 45
+2023-05-04 16:43:50.341  INFO MacBook-Air-Nina.local --- [onPool-worker-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:43:50.360  INFO MacBook-Air-Nina.local --- [nio-8080-exec-9] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:50.361  INFO MacBook-Air-Nina.local --- [nio-8080-exec-9] L.s.CalculationServiceImpl               : Updated number of calls: 46
+2023-05-04 16:43:50.361  INFO MacBook-Air-Nina.local --- [onPool-worker-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:43:50.377  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:50.379  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] L.s.CalculationServiceImpl               : Updated number of calls: 47
+2023-05-04 16:43:50.380  INFO MacBook-Air-Nina.local --- [onPool-worker-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:43:50.397  INFO MacBook-Air-Nina.local --- [nio-8080-exec-2] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:50.397  INFO MacBook-Air-Nina.local --- [nio-8080-exec-2] L.s.CalculationServiceImpl               : Updated number of calls: 48
+2023-05-04 16:43:50.398  INFO MacBook-Air-Nina.local --- [onPool-worker-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:43:50.417  INFO MacBook-Air-Nina.local --- [nio-8080-exec-5] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:50.417  INFO MacBook-Air-Nina.local --- [nio-8080-exec-5] L.s.CalculationServiceImpl               : Updated number of calls: 49
+2023-05-04 16:43:50.417  INFO MacBook-Air-Nina.local --- [onPool-worker-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:43:50.430  INFO MacBook-Air-Nina.local --- [nio-8080-exec-7] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:50.430  INFO MacBook-Air-Nina.local --- [nio-8080-exec-7] L.s.CalculationServiceImpl               : Updated number of calls: 50
+2023-05-04 16:43:50.430  INFO MacBook-Air-Nina.local --- [onPool-worker-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:43:50.443  INFO MacBook-Air-Nina.local --- [nio-8080-exec-9] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:50.443  INFO MacBook-Air-Nina.local --- [nio-8080-exec-9] L.s.CalculationServiceImpl               : Updated number of calls: 51
+2023-05-04 16:43:50.443  INFO MacBook-Air-Nina.local --- [onPool-worker-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:43:50.458  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:50.461  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] L.s.CalculationServiceImpl               : Updated number of calls: 52
+2023-05-04 16:43:50.461  INFO MacBook-Air-Nina.local --- [onPool-worker-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:43:50.474  INFO MacBook-Air-Nina.local --- [nio-8080-exec-2] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:50.474  INFO MacBook-Air-Nina.local --- [nio-8080-exec-2] L.s.CalculationServiceImpl               : Updated number of calls: 53
+2023-05-04 16:43:50.475  INFO MacBook-Air-Nina.local --- [onPool-worker-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:43:50.488  INFO MacBook-Air-Nina.local --- [nio-8080-exec-5] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:50.488  INFO MacBook-Air-Nina.local --- [nio-8080-exec-5] L.s.CalculationServiceImpl               : Updated number of calls: 54
+2023-05-04 16:43:50.489  INFO MacBook-Air-Nina.local --- [onPool-worker-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:43:50.504  INFO MacBook-Air-Nina.local --- [nio-8080-exec-7] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:50.504  INFO MacBook-Air-Nina.local --- [nio-8080-exec-7] L.s.CalculationServiceImpl               : Updated number of calls: 55
+2023-05-04 16:43:50.508  INFO MacBook-Air-Nina.local --- [onPool-worker-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:43:50.522  INFO MacBook-Air-Nina.local --- [nio-8080-exec-9] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:50.523  INFO MacBook-Air-Nina.local --- [nio-8080-exec-9] L.s.CalculationServiceImpl               : Updated number of calls: 56
+2023-05-04 16:43:50.524  INFO MacBook-Air-Nina.local --- [onPool-worker-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:43:50.540  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:50.541  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] L.s.CalculationServiceImpl               : Updated number of calls: 57
+2023-05-04 16:43:50.542  INFO MacBook-Air-Nina.local --- [onPool-worker-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:43:50.556  INFO MacBook-Air-Nina.local --- [nio-8080-exec-2] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:50.557  INFO MacBook-Air-Nina.local --- [nio-8080-exec-2] L.s.CalculationServiceImpl               : Updated number of calls: 58
+2023-05-04 16:43:50.558  INFO MacBook-Air-Nina.local --- [onPool-worker-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:43:50.572  INFO MacBook-Air-Nina.local --- [nio-8080-exec-5] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:50.572  INFO MacBook-Air-Nina.local --- [nio-8080-exec-5] L.s.CalculationServiceImpl               : Updated number of calls: 59
+2023-05-04 16:43:50.572  INFO MacBook-Air-Nina.local --- [onPool-worker-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:43:50.583  INFO MacBook-Air-Nina.local --- [nio-8080-exec-7] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:50.583  INFO MacBook-Air-Nina.local --- [nio-8080-exec-7] L.s.CalculationServiceImpl               : Updated number of calls: 60
+2023-05-04 16:43:50.584  INFO MacBook-Air-Nina.local --- [onPool-worker-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:43:50.597  INFO MacBook-Air-Nina.local --- [nio-8080-exec-9] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:50.600  INFO MacBook-Air-Nina.local --- [nio-8080-exec-9] L.s.CalculationServiceImpl               : Updated number of calls: 61
+2023-05-04 16:43:50.600  INFO MacBook-Air-Nina.local --- [onPool-worker-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:43:50.614  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:50.615  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] L.s.CalculationServiceImpl               : Updated number of calls: 62
+2023-05-04 16:43:50.616  INFO MacBook-Air-Nina.local --- [onPool-worker-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:43:50.629  INFO MacBook-Air-Nina.local --- [nio-8080-exec-2] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:50.631  INFO MacBook-Air-Nina.local --- [nio-8080-exec-2] L.s.CalculationServiceImpl               : Updated number of calls: 63
+2023-05-04 16:43:50.632  INFO MacBook-Air-Nina.local --- [onPool-worker-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:43:50.646  INFO MacBook-Air-Nina.local --- [nio-8080-exec-5] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:50.646  INFO MacBook-Air-Nina.local --- [nio-8080-exec-5] L.s.CalculationServiceImpl               : Updated number of calls: 64
+2023-05-04 16:43:50.647  INFO MacBook-Air-Nina.local --- [onPool-worker-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:43:50.660  INFO MacBook-Air-Nina.local --- [nio-8080-exec-7] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:50.663  INFO MacBook-Air-Nina.local --- [nio-8080-exec-7] L.s.CalculationServiceImpl               : Updated number of calls: 65
+2023-05-04 16:43:50.664  INFO MacBook-Air-Nina.local --- [onPool-worker-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:43:50.678  INFO MacBook-Air-Nina.local --- [nio-8080-exec-9] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:50.679  INFO MacBook-Air-Nina.local --- [nio-8080-exec-9] L.s.CalculationServiceImpl               : Updated number of calls: 66
+2023-05-04 16:43:50.680  INFO MacBook-Air-Nina.local --- [onPool-worker-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:43:50.694  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:50.696  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] L.s.CalculationServiceImpl               : Updated number of calls: 67
+2023-05-04 16:43:50.696  INFO MacBook-Air-Nina.local --- [onPool-worker-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:43:50.712  INFO MacBook-Air-Nina.local --- [nio-8080-exec-2] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:50.713  INFO MacBook-Air-Nina.local --- [nio-8080-exec-2] L.s.CalculationServiceImpl               : Updated number of calls: 68
+2023-05-04 16:43:50.714  INFO MacBook-Air-Nina.local --- [onPool-worker-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:43:50.730  INFO MacBook-Air-Nina.local --- [nio-8080-exec-5] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:50.730  INFO MacBook-Air-Nina.local --- [nio-8080-exec-5] L.s.CalculationServiceImpl               : Updated number of calls: 69
+2023-05-04 16:43:50.730  INFO MacBook-Air-Nina.local --- [onPool-worker-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:43:50.745  INFO MacBook-Air-Nina.local --- [nio-8080-exec-7] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:50.748  INFO MacBook-Air-Nina.local --- [nio-8080-exec-7] L.s.CalculationServiceImpl               : Updated number of calls: 70
+2023-05-04 16:43:50.749  INFO MacBook-Air-Nina.local --- [onPool-worker-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:43:50.762  INFO MacBook-Air-Nina.local --- [io-8080-exec-10] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:50.763  INFO MacBook-Air-Nina.local --- [io-8080-exec-10] L.s.CalculationServiceImpl               : Updated number of calls: 71
+2023-05-04 16:43:50.763  INFO MacBook-Air-Nina.local --- [onPool-worker-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:43:50.777  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:50.777  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] L.s.CalculationServiceImpl               : Updated number of calls: 72
+2023-05-04 16:43:50.778  INFO MacBook-Air-Nina.local --- [onPool-worker-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:43:50.791  INFO MacBook-Air-Nina.local --- [nio-8080-exec-2] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:50.793  INFO MacBook-Air-Nina.local --- [nio-8080-exec-2] L.s.CalculationServiceImpl               : Updated number of calls: 73
+2023-05-04 16:43:50.794  INFO MacBook-Air-Nina.local --- [onPool-worker-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:43:50.808  INFO MacBook-Air-Nina.local --- [nio-8080-exec-5] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:50.811  INFO MacBook-Air-Nina.local --- [nio-8080-exec-5] L.s.CalculationServiceImpl               : Updated number of calls: 74
+2023-05-04 16:43:50.812  INFO MacBook-Air-Nina.local --- [onPool-worker-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:43:50.828  INFO MacBook-Air-Nina.local --- [nio-8080-exec-8] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:50.831  INFO MacBook-Air-Nina.local --- [nio-8080-exec-8] L.s.CalculationServiceImpl               : Updated number of calls: 75
+2023-05-04 16:43:50.831  INFO MacBook-Air-Nina.local --- [onPool-worker-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:43:50.850  INFO MacBook-Air-Nina.local --- [nio-8080-exec-9] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:50.851  INFO MacBook-Air-Nina.local --- [nio-8080-exec-9] L.s.CalculationServiceImpl               : Updated number of calls: 76
+2023-05-04 16:43:50.852  INFO MacBook-Air-Nina.local --- [onPool-worker-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:43:50.865  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:50.865  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] L.s.CalculationServiceImpl               : Updated number of calls: 77
+2023-05-04 16:43:50.866  INFO MacBook-Air-Nina.local --- [onPool-worker-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:43:50.879  INFO MacBook-Air-Nina.local --- [nio-8080-exec-2] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:50.881  INFO MacBook-Air-Nina.local --- [nio-8080-exec-2] L.s.CalculationServiceImpl               : Updated number of calls: 78
+2023-05-04 16:43:50.882  INFO MacBook-Air-Nina.local --- [onPool-worker-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:43:50.895  INFO MacBook-Air-Nina.local --- [nio-8080-exec-4] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:50.896  INFO MacBook-Air-Nina.local --- [nio-8080-exec-4] L.s.CalculationServiceImpl               : Updated number of calls: 79
+2023-05-04 16:43:50.897  INFO MacBook-Air-Nina.local --- [onPool-worker-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:43:50.910  INFO MacBook-Air-Nina.local --- [nio-8080-exec-6] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:50.913  INFO MacBook-Air-Nina.local --- [nio-8080-exec-6] L.s.CalculationServiceImpl               : Updated number of calls: 80
+2023-05-04 16:43:50.913  INFO MacBook-Air-Nina.local --- [onPool-worker-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:43:50.930  INFO MacBook-Air-Nina.local --- [nio-8080-exec-8] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:50.930  INFO MacBook-Air-Nina.local --- [nio-8080-exec-8] L.s.CalculationServiceImpl               : Updated number of calls: 81
+2023-05-04 16:43:50.931  INFO MacBook-Air-Nina.local --- [onPool-worker-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:43:50.946  INFO MacBook-Air-Nina.local --- [nio-8080-exec-9] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:50.947  INFO MacBook-Air-Nina.local --- [nio-8080-exec-9] L.s.CalculationServiceImpl               : Updated number of calls: 82
+2023-05-04 16:43:50.947  INFO MacBook-Air-Nina.local --- [onPool-worker-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:43:50.961  INFO MacBook-Air-Nina.local --- [nio-8080-exec-3] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:50.962  INFO MacBook-Air-Nina.local --- [nio-8080-exec-3] L.s.CalculationServiceImpl               : Updated number of calls: 83
+2023-05-04 16:43:50.963  INFO MacBook-Air-Nina.local --- [onPool-worker-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:43:50.978  INFO MacBook-Air-Nina.local --- [nio-8080-exec-4] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:50.979  INFO MacBook-Air-Nina.local --- [nio-8080-exec-4] L.s.CalculationServiceImpl               : Updated number of calls: 84
+2023-05-04 16:43:50.980  INFO MacBook-Air-Nina.local --- [onPool-worker-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:43:50.996  INFO MacBook-Air-Nina.local --- [nio-8080-exec-6] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:50.998  INFO MacBook-Air-Nina.local --- [nio-8080-exec-6] L.s.CalculationServiceImpl               : Updated number of calls: 85
+2023-05-04 16:43:50.999  INFO MacBook-Air-Nina.local --- [onPool-worker-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:43:51.013  INFO MacBook-Air-Nina.local --- [nio-8080-exec-8] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:51.014  INFO MacBook-Air-Nina.local --- [nio-8080-exec-8] L.s.CalculationServiceImpl               : Updated number of calls: 86
+2023-05-04 16:43:51.014  INFO MacBook-Air-Nina.local --- [onPool-worker-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:43:51.032  INFO MacBook-Air-Nina.local --- [nio-8080-exec-9] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:51.033  INFO MacBook-Air-Nina.local --- [nio-8080-exec-9] L.s.CalculationServiceImpl               : Updated number of calls: 87
+2023-05-04 16:43:51.036  INFO MacBook-Air-Nina.local --- [onPool-worker-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:43:51.052  INFO MacBook-Air-Nina.local --- [nio-8080-exec-3] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:51.055  INFO MacBook-Air-Nina.local --- [nio-8080-exec-3] L.s.CalculationServiceImpl               : Updated number of calls: 88
+2023-05-04 16:43:51.055  INFO MacBook-Air-Nina.local --- [onPool-worker-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:43:51.072  INFO MacBook-Air-Nina.local --- [nio-8080-exec-4] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:51.074  INFO MacBook-Air-Nina.local --- [nio-8080-exec-4] L.s.CalculationServiceImpl               : Updated number of calls: 89
+2023-05-04 16:43:51.074  INFO MacBook-Air-Nina.local --- [onPool-worker-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:43:51.087  INFO MacBook-Air-Nina.local --- [nio-8080-exec-6] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:51.092  INFO MacBook-Air-Nina.local --- [nio-8080-exec-6] L.s.CalculationServiceImpl               : Updated number of calls: 90
+2023-05-04 16:43:51.092  INFO MacBook-Air-Nina.local --- [onPool-worker-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:43:51.108  INFO MacBook-Air-Nina.local --- [nio-8080-exec-8] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:51.109  INFO MacBook-Air-Nina.local --- [nio-8080-exec-8] L.s.CalculationServiceImpl               : Updated number of calls: 91
+2023-05-04 16:43:51.109  INFO MacBook-Air-Nina.local --- [onPool-worker-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:43:51.127  INFO MacBook-Air-Nina.local --- [nio-8080-exec-9] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:51.128  INFO MacBook-Air-Nina.local --- [nio-8080-exec-9] L.s.CalculationServiceImpl               : Updated number of calls: 92
+2023-05-04 16:43:51.128  INFO MacBook-Air-Nina.local --- [onPool-worker-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:43:51.144  INFO MacBook-Air-Nina.local --- [nio-8080-exec-3] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:51.146  INFO MacBook-Air-Nina.local --- [nio-8080-exec-3] L.s.CalculationServiceImpl               : Updated number of calls: 93
+2023-05-04 16:43:51.146  INFO MacBook-Air-Nina.local --- [onPool-worker-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:43:51.160  INFO MacBook-Air-Nina.local --- [nio-8080-exec-4] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:51.161  INFO MacBook-Air-Nina.local --- [nio-8080-exec-4] L.s.CalculationServiceImpl               : Updated number of calls: 94
+2023-05-04 16:43:51.162  INFO MacBook-Air-Nina.local --- [onPool-worker-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:43:51.175  INFO MacBook-Air-Nina.local --- [nio-8080-exec-6] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:51.176  INFO MacBook-Air-Nina.local --- [nio-8080-exec-6] L.s.CalculationServiceImpl               : Updated number of calls: 95
+2023-05-04 16:43:51.177  INFO MacBook-Air-Nina.local --- [onPool-worker-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:43:51.192  INFO MacBook-Air-Nina.local --- [nio-8080-exec-8] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:51.193  INFO MacBook-Air-Nina.local --- [nio-8080-exec-8] L.s.CalculationServiceImpl               : Updated number of calls: 96
+2023-05-04 16:43:51.194  INFO MacBook-Air-Nina.local --- [onPool-worker-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:43:51.208  INFO MacBook-Air-Nina.local --- [nio-8080-exec-9] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:51.208  INFO MacBook-Air-Nina.local --- [nio-8080-exec-9] L.s.CalculationServiceImpl               : Updated number of calls: 97
+2023-05-04 16:43:51.209  INFO MacBook-Air-Nina.local --- [onPool-worker-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:43:51.223  INFO MacBook-Air-Nina.local --- [nio-8080-exec-3] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:51.223  INFO MacBook-Air-Nina.local --- [nio-8080-exec-3] L.s.CalculationServiceImpl               : Updated number of calls: 98
+2023-05-04 16:43:51.223  INFO MacBook-Air-Nina.local --- [onPool-worker-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:43:51.239  INFO MacBook-Air-Nina.local --- [nio-8080-exec-4] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:51.241  INFO MacBook-Air-Nina.local --- [nio-8080-exec-4] L.s.CalculationServiceImpl               : Updated number of calls: 99
+2023-05-04 16:43:51.241  INFO MacBook-Air-Nina.local --- [onPool-worker-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:43:51.256  INFO MacBook-Air-Nina.local --- [nio-8080-exec-6] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:51.259  INFO MacBook-Air-Nina.local --- [nio-8080-exec-6] L.s.CalculationServiceImpl               : Updated number of calls: 100
+2023-05-04 16:43:51.259  INFO MacBook-Air-Nina.local --- [onPool-worker-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:43:51.274  INFO MacBook-Air-Nina.local --- [nio-8080-exec-8] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:51.274  INFO MacBook-Air-Nina.local --- [nio-8080-exec-8] L.s.CalculationServiceImpl               : Updated number of calls: 101
+2023-05-04 16:43:51.274  INFO MacBook-Air-Nina.local --- [onPool-worker-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:43:51.290  INFO MacBook-Air-Nina.local --- [io-8080-exec-10] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:51.297  INFO MacBook-Air-Nina.local --- [io-8080-exec-10] L.s.CalculationServiceImpl               : Updated number of calls: 102
+2023-05-04 16:43:51.297  INFO MacBook-Air-Nina.local --- [onPool-worker-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:43:51.314  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:51.316  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] L.s.CalculationServiceImpl               : Updated number of calls: 103
+2023-05-04 16:43:51.317  INFO MacBook-Air-Nina.local --- [onPool-worker-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:43:51.337  INFO MacBook-Air-Nina.local --- [nio-8080-exec-2] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:51.338  INFO MacBook-Air-Nina.local --- [nio-8080-exec-2] L.s.CalculationServiceImpl               : Updated number of calls: 104
+2023-05-04 16:43:51.338  INFO MacBook-Air-Nina.local --- [onPool-worker-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:43:51.354  INFO MacBook-Air-Nina.local --- [nio-8080-exec-5] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:51.355  INFO MacBook-Air-Nina.local --- [nio-8080-exec-5] L.s.CalculationServiceImpl               : Updated number of calls: 105
+2023-05-04 16:43:51.355  INFO MacBook-Air-Nina.local --- [onPool-worker-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:43:51.367  INFO MacBook-Air-Nina.local --- [nio-8080-exec-7] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:51.371  INFO MacBook-Air-Nina.local --- [nio-8080-exec-7] L.s.CalculationServiceImpl               : Updated number of calls: 106
+2023-05-04 16:43:51.371  INFO MacBook-Air-Nina.local --- [onPool-worker-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:43:51.385  INFO MacBook-Air-Nina.local --- [io-8080-exec-10] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:51.387  INFO MacBook-Air-Nina.local --- [io-8080-exec-10] L.s.CalculationServiceImpl               : Updated number of calls: 107
+2023-05-04 16:43:51.388  INFO MacBook-Air-Nina.local --- [onPool-worker-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:43:51.402  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:51.404  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] L.s.CalculationServiceImpl               : Updated number of calls: 108
+2023-05-04 16:43:51.405  INFO MacBook-Air-Nina.local --- [onPool-worker-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:43:51.418  INFO MacBook-Air-Nina.local --- [nio-8080-exec-2] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:51.420  INFO MacBook-Air-Nina.local --- [nio-8080-exec-2] L.s.CalculationServiceImpl               : Updated number of calls: 109
+2023-05-04 16:43:51.421  INFO MacBook-Air-Nina.local --- [onPool-worker-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:43:51.434  INFO MacBook-Air-Nina.local --- [nio-8080-exec-5] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:51.434  INFO MacBook-Air-Nina.local --- [nio-8080-exec-5] L.s.CalculationServiceImpl               : Updated number of calls: 110
+2023-05-04 16:43:51.434  INFO MacBook-Air-Nina.local --- [onPool-worker-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:43:51.448  INFO MacBook-Air-Nina.local --- [nio-8080-exec-7] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:51.449  INFO MacBook-Air-Nina.local --- [nio-8080-exec-7] L.s.CalculationServiceImpl               : Updated number of calls: 111
+2023-05-04 16:43:51.449  INFO MacBook-Air-Nina.local --- [onPool-worker-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:43:51.463  INFO MacBook-Air-Nina.local --- [io-8080-exec-10] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:51.463  INFO MacBook-Air-Nina.local --- [io-8080-exec-10] L.s.CalculationServiceImpl               : Updated number of calls: 112
+2023-05-04 16:43:51.463  INFO MacBook-Air-Nina.local --- [onPool-worker-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:43:51.476  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:51.476  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] L.s.CalculationServiceImpl               : Updated number of calls: 113
+2023-05-04 16:43:51.476  INFO MacBook-Air-Nina.local --- [onPool-worker-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:43:51.490  INFO MacBook-Air-Nina.local --- [nio-8080-exec-2] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:51.490  INFO MacBook-Air-Nina.local --- [nio-8080-exec-2] L.s.CalculationServiceImpl               : Updated number of calls: 114
+2023-05-04 16:43:51.491  INFO MacBook-Air-Nina.local --- [onPool-worker-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:43:51.501  INFO MacBook-Air-Nina.local --- [nio-8080-exec-5] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:51.504  INFO MacBook-Air-Nina.local --- [nio-8080-exec-5] L.s.CalculationServiceImpl               : Updated number of calls: 115
+2023-05-04 16:43:51.504  INFO MacBook-Air-Nina.local --- [onPool-worker-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:43:51.519  INFO MacBook-Air-Nina.local --- [nio-8080-exec-6] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:51.522  INFO MacBook-Air-Nina.local --- [nio-8080-exec-6] L.s.CalculationServiceImpl               : Updated number of calls: 116
+2023-05-04 16:43:51.522  INFO MacBook-Air-Nina.local --- [onPool-worker-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:43:51.536  INFO MacBook-Air-Nina.local --- [nio-8080-exec-8] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:51.537  INFO MacBook-Air-Nina.local --- [nio-8080-exec-8] L.s.CalculationServiceImpl               : Updated number of calls: 117
+2023-05-04 16:43:51.538  INFO MacBook-Air-Nina.local --- [onPool-worker-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:43:51.554  INFO MacBook-Air-Nina.local --- [nio-8080-exec-9] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:51.554  INFO MacBook-Air-Nina.local --- [nio-8080-exec-9] L.s.CalculationServiceImpl               : Updated number of calls: 118
+2023-05-04 16:43:51.554  INFO MacBook-Air-Nina.local --- [onPool-worker-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:43:51.573  INFO MacBook-Air-Nina.local --- [nio-8080-exec-3] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:51.574  INFO MacBook-Air-Nina.local --- [nio-8080-exec-3] L.s.CalculationServiceImpl               : Updated number of calls: 119
+2023-05-04 16:43:51.574  INFO MacBook-Air-Nina.local --- [onPool-worker-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:43:51.588  INFO MacBook-Air-Nina.local --- [nio-8080-exec-4] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:51.589  INFO MacBook-Air-Nina.local --- [nio-8080-exec-4] L.s.CalculationServiceImpl               : Updated number of calls: 120
+2023-05-04 16:43:51.590  INFO MacBook-Air-Nina.local --- [onPool-worker-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:43:51.603  INFO MacBook-Air-Nina.local --- [nio-8080-exec-6] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:51.604  INFO MacBook-Air-Nina.local --- [nio-8080-exec-6] L.s.CalculationServiceImpl               : Updated number of calls: 121
+2023-05-04 16:43:51.604  INFO MacBook-Air-Nina.local --- [onPool-worker-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:43:51.618  INFO MacBook-Air-Nina.local --- [nio-8080-exec-7] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:51.621  INFO MacBook-Air-Nina.local --- [nio-8080-exec-7] L.s.CalculationServiceImpl               : Updated number of calls: 122
+2023-05-04 16:43:51.622  INFO MacBook-Air-Nina.local --- [onPool-worker-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:43:51.636  INFO MacBook-Air-Nina.local --- [io-8080-exec-10] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:51.636  INFO MacBook-Air-Nina.local --- [io-8080-exec-10] L.s.CalculationServiceImpl               : Updated number of calls: 123
+2023-05-04 16:43:51.636  INFO MacBook-Air-Nina.local --- [onPool-worker-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:43:51.648  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:51.649  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] L.s.CalculationServiceImpl               : Updated number of calls: 124
+2023-05-04 16:43:51.649  INFO MacBook-Air-Nina.local --- [onPool-worker-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:43:51.663  INFO MacBook-Air-Nina.local --- [nio-8080-exec-2] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:51.664  INFO MacBook-Air-Nina.local --- [nio-8080-exec-2] L.s.CalculationServiceImpl               : Updated number of calls: 125
+2023-05-04 16:43:51.664  INFO MacBook-Air-Nina.local --- [onPool-worker-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:43:51.675  INFO MacBook-Air-Nina.local --- [nio-8080-exec-5] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:43:51.676  INFO MacBook-Air-Nina.local --- [nio-8080-exec-5] L.s.CalculationServiceImpl               : Updated number of calls: 126
+2023-05-04 16:43:51.676  INFO MacBook-Air-Nina.local --- [onPool-worker-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:52:17.208  INFO MacBook-Air-Nina.local --- [nio-8080-exec-8] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:52:17.210  INFO MacBook-Air-Nina.local --- [nio-8080-exec-8] L.s.CalculationServiceImpl               : Updated number of calls: 127
+2023-05-04 16:52:17.222  INFO MacBook-Air-Nina.local --- [nio-8080-exec-8] L.s.CalculationServiceImpl               : The mean value was calculated
+2023-05-04 16:52:17.223  INFO MacBook-Air-Nina.local --- [onPool-worker-6] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:52:52.483  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:52:52.483  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] L.s.CalculationServiceImpl               : Updated number of calls: 128
+2023-05-04 16:52:52.484  INFO MacBook-Air-Nina.local --- [onPool-worker-6] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:53:05.758  INFO MacBook-Air-Nina.local --- [nio-8080-exec-2] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:53:05.758  INFO MacBook-Air-Nina.local --- [nio-8080-exec-2] L.s.CalculationServiceImpl               : Updated number of calls: 129
+2023-05-04 16:53:05.762  INFO MacBook-Air-Nina.local --- [nio-8080-exec-2] L.s.CalculationServiceImpl               : The mean value was calculated
+2023-05-04 16:53:05.763  INFO MacBook-Air-Nina.local --- [onPool-worker-6] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:53:11.249  INFO MacBook-Air-Nina.local --- [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-04 16:53:11.251  INFO MacBook-Air-Nina.local --- [ionShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2023-05-04 16:53:11.253  INFO MacBook-Air-Nina.local --- [ionShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2023-05-04 16:53:23.520  INFO MacBook-Air-Nina.local --- [kground-preinit] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 8.0.0.Final
+2023-05-04 16:53:23.548  INFO MacBook-Air-Nina.local --- [           main] L.LW1Application                         : Starting LW1Application using Java 17.0.6 with PID 4120 (/Users/nina/Java/LW1/target/classes started by nina in /Users/nina/Java/LW1)
+2023-05-04 16:53:23.550  INFO MacBook-Air-Nina.local --- [           main] L.LW1Application                         : No active profile set, falling back to 1 default profile: "default"
+2023-05-04 16:53:23.993  INFO MacBook-Air-Nina.local --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-04 16:53:24.016  INFO MacBook-Air-Nina.local --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19 ms. Found 1 JPA repository interfaces.
+2023-05-04 16:53:24.283  INFO MacBook-Air-Nina.local --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2023-05-04 16:53:24.287  INFO MacBook-Air-Nina.local --- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2023-05-04 16:53:24.288  INFO MacBook-Air-Nina.local --- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2023-05-04 16:53:24.288  INFO MacBook-Air-Nina.local --- [           main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-05-04 16:53:24.329  INFO MacBook-Air-Nina.local --- [           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2023-05-04 16:53:24.329  INFO MacBook-Air-Nina.local --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 759 ms
+2023-05-04 16:53:24.453  INFO MacBook-Air-Nina.local --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2023-05-04 16:53:24.633  INFO MacBook-Air-Nina.local --- [           main] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@645dc557
+2023-05-04 16:53:24.634  INFO MacBook-Air-Nina.local --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2023-05-04 16:53:24.656  INFO MacBook-Air-Nina.local --- [           main] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-04 16:53:24.682  INFO MacBook-Air-Nina.local --- [           main] o.h.Version                              : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-05-04 16:53:24.807  INFO MacBook-Air-Nina.local --- [           main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-05-04 16:53:24.808  WARN MacBook-Air-Nina.local --- [           main] o.h.o.deprecation                        : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-05-04 16:53:25.070  INFO MacBook-Air-Nina.local --- [           main] o.h.m.i.EntityInstantiatorPojoStandard   : HHH000182: No default (no-argument) constructor for class: LW1.model.CalculationResultEntity (class must be instantiated by Interceptor)
+2023-05-04 16:53:25.119  INFO MacBook-Air-Nina.local --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-04 16:53:25.124  INFO MacBook-Air-Nina.local --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-04 16:53:25.133  INFO MacBook-Air-Nina.local --- [           main] L.s.CalculationServiceImpl               : Statistical data is sent
+2023-05-04 16:53:25.255  WARN MacBook-Air-Nina.local --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-04 16:53:25.478  INFO MacBook-Air-Nina.local --- [           main] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-05-04 16:53:25.514  INFO MacBook-Air-Nina.local --- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2023-05-04 16:53:25.523  INFO MacBook-Air-Nina.local --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-04 16:53:25.534  INFO MacBook-Air-Nina.local --- [           main] L.LW1Application                         : Started LW1Application in 2.165 seconds (process running for 2.636)
+2023-05-04 16:53:28.224  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-04 16:53:28.224  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2023-05-04 16:53:28.226  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 2 ms
+2023-05-04 16:53:28.252  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:53:28.252  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] L.s.CalculationServiceImpl               : Updated number of calls: 1
+2023-05-04 16:53:28.254  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] L.s.CalculationServiceImpl               : Retrieving the calculations...
+2023-05-04 16:53:31.338  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] L.s.CalculationServiceImpl               : The mean value was calculated
+2023-05-04 16:53:31.340  INFO MacBook-Air-Nina.local --- [onPool-worker-1] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:54:30.436  INFO MacBook-Air-Nina.local --- [nio-8080-exec-3] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:54:30.436  INFO MacBook-Air-Nina.local --- [nio-8080-exec-3] L.s.CalculationServiceImpl               : Updated number of calls: 2
+2023-05-04 16:54:30.437  INFO MacBook-Air-Nina.local --- [nio-8080-exec-3] L.s.CalculationServiceImpl               : Retrieving the calculations...
+2023-05-04 16:54:31.730  INFO MacBook-Air-Nina.local --- [nio-8080-exec-4] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:54:31.730  INFO MacBook-Air-Nina.local --- [nio-8080-exec-4] L.s.CalculationServiceImpl               : Updated number of calls: 3
+2023-05-04 16:54:31.740  INFO MacBook-Air-Nina.local --- [nio-8080-exec-4] L.s.CalculationServiceImpl               : The medium value was calculated
+2023-05-04 16:54:33.449  INFO MacBook-Air-Nina.local --- [nio-8080-exec-3] L.s.CalculationServiceImpl               : The mean value was calculated
+2023-05-04 16:54:33.450  INFO MacBook-Air-Nina.local --- [onPool-worker-2] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 16:55:51.072  INFO MacBook-Air-Nina.local --- [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-04 16:55:51.073  INFO MacBook-Air-Nina.local --- [ionShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2023-05-04 16:55:51.076  INFO MacBook-Air-Nina.local --- [ionShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2023-05-04 16:55:58.145  INFO MacBook-Air-Nina.local --- [kground-preinit] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 8.0.0.Final
+2023-05-04 16:55:58.167  INFO MacBook-Air-Nina.local --- [           main] L.LW1Application                         : Starting LW1Application using Java 17.0.6 with PID 4131 (/Users/nina/Java/LW1/target/classes started by nina in /Users/nina/Java/LW1)
+2023-05-04 16:55:58.169  INFO MacBook-Air-Nina.local --- [           main] L.LW1Application                         : No active profile set, falling back to 1 default profile: "default"
+2023-05-04 16:55:58.575  INFO MacBook-Air-Nina.local --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-04 16:55:58.597  INFO MacBook-Air-Nina.local --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 18 ms. Found 1 JPA repository interfaces.
+2023-05-04 16:55:58.857  INFO MacBook-Air-Nina.local --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2023-05-04 16:55:58.861  INFO MacBook-Air-Nina.local --- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2023-05-04 16:55:58.861  INFO MacBook-Air-Nina.local --- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2023-05-04 16:55:58.861  INFO MacBook-Air-Nina.local --- [           main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-05-04 16:55:58.900  INFO MacBook-Air-Nina.local --- [           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2023-05-04 16:55:58.900  INFO MacBook-Air-Nina.local --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 714 ms
+2023-05-04 16:55:59.017  INFO MacBook-Air-Nina.local --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2023-05-04 16:55:59.167  INFO MacBook-Air-Nina.local --- [           main] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@677cc4e8
+2023-05-04 16:55:59.168  INFO MacBook-Air-Nina.local --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2023-05-04 16:55:59.188  INFO MacBook-Air-Nina.local --- [           main] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-04 16:55:59.211  INFO MacBook-Air-Nina.local --- [           main] o.h.Version                              : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-05-04 16:55:59.330  INFO MacBook-Air-Nina.local --- [           main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-05-04 16:55:59.331  WARN MacBook-Air-Nina.local --- [           main] o.h.o.deprecation                        : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-05-04 16:55:59.598  INFO MacBook-Air-Nina.local --- [           main] o.h.m.i.EntityInstantiatorPojoStandard   : HHH000182: No default (no-argument) constructor for class: LW1.model.CalculationResultEntity (class must be instantiated by Interceptor)
+2023-05-04 16:55:59.650  INFO MacBook-Air-Nina.local --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-04 16:55:59.657  INFO MacBook-Air-Nina.local --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-04 16:55:59.665  INFO MacBook-Air-Nina.local --- [           main] L.s.CalculationServiceImpl               : Statistical data is sent
+2023-05-04 16:55:59.787  WARN MacBook-Air-Nina.local --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-04 16:55:59.999  INFO MacBook-Air-Nina.local --- [           main] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-05-04 16:56:00.033  INFO MacBook-Air-Nina.local --- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2023-05-04 16:56:00.042  INFO MacBook-Air-Nina.local --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-04 16:56:00.053  INFO MacBook-Air-Nina.local --- [           main] L.LW1Application                         : Started LW1Application in 2.037 seconds (process running for 2.417)
+2023-05-04 16:56:11.078  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-04 16:56:11.079  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2023-05-04 16:56:11.079  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 0 ms
+2023-05-04 16:56:11.108  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:56:11.108  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] L.s.CalculationServiceImpl               : Updated number of calls: 1
+2023-05-04 16:56:11.149  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] L.s.CalculationServiceImpl               : The medium value was calculated
+2023-05-04 16:56:14.363  INFO MacBook-Air-Nina.local --- [nio-8080-exec-3] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:56:14.364  INFO MacBook-Air-Nina.local --- [nio-8080-exec-3] L.s.CalculationServiceImpl               : Updated number of calls: 2
+2023-05-04 16:56:14.364  INFO MacBook-Air-Nina.local --- [nio-8080-exec-3] L.s.CalculationServiceImpl               : Retrieving the calculations...
+2023-05-04 16:56:15.180  INFO MacBook-Air-Nina.local --- [nio-8080-exec-4] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 16:56:15.180  INFO MacBook-Air-Nina.local --- [nio-8080-exec-4] L.s.CalculationServiceImpl               : Updated number of calls: 3
+2023-05-04 16:56:15.188  INFO MacBook-Air-Nina.local --- [nio-8080-exec-4] L.s.CalculationServiceImpl               : The medium value was calculated
+2023-05-04 16:56:19.375  INFO MacBook-Air-Nina.local --- [nio-8080-exec-3] L.s.CalculationServiceImpl               : The mean value was calculated
+2023-05-04 16:56:19.377  INFO MacBook-Air-Nina.local --- [onPool-worker-1] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 17:06:53.406  INFO MacBook-Air-Nina.local --- [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-04 17:06:53.408  INFO MacBook-Air-Nina.local --- [ionShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2023-05-04 17:06:53.411  INFO MacBook-Air-Nina.local --- [ionShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2023-05-04 17:35:20.266  INFO MacBook-Air-Nina.local --- [kground-preinit] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 8.0.0.Final
+2023-05-04 17:35:20.293  INFO MacBook-Air-Nina.local --- [           main] L.LW1Application                         : Starting LW1Application using Java 17.0.6 with PID 4761 (/Users/nina/Java/LW1/target/classes started by nina in /Users/nina/Java/LW1)
+2023-05-04 17:35:20.295  INFO MacBook-Air-Nina.local --- [           main] L.LW1Application                         : No active profile set, falling back to 1 default profile: "default"
+2023-05-04 17:35:20.762  INFO MacBook-Air-Nina.local --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-04 17:35:20.788  INFO MacBook-Air-Nina.local --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 23 ms. Found 1 JPA repository interfaces.
+2023-05-04 17:35:21.068  INFO MacBook-Air-Nina.local --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2023-05-04 17:35:21.072  INFO MacBook-Air-Nina.local --- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2023-05-04 17:35:21.072  INFO MacBook-Air-Nina.local --- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2023-05-04 17:35:21.073  INFO MacBook-Air-Nina.local --- [           main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-05-04 17:35:21.115  INFO MacBook-Air-Nina.local --- [           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2023-05-04 17:35:21.115  INFO MacBook-Air-Nina.local --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 801 ms
+2023-05-04 17:35:21.243  INFO MacBook-Air-Nina.local --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2023-05-04 17:35:21.434  INFO MacBook-Air-Nina.local --- [           main] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@68e24e7
+2023-05-04 17:35:21.436  INFO MacBook-Air-Nina.local --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2023-05-04 17:35:21.456  INFO MacBook-Air-Nina.local --- [           main] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-04 17:35:21.483  INFO MacBook-Air-Nina.local --- [           main] o.h.Version                              : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-05-04 17:35:21.618  INFO MacBook-Air-Nina.local --- [           main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-05-04 17:35:21.619  WARN MacBook-Air-Nina.local --- [           main] o.h.o.deprecation                        : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-05-04 17:35:21.900  INFO MacBook-Air-Nina.local --- [           main] o.h.m.i.EntityInstantiatorPojoStandard   : HHH000182: No default (no-argument) constructor for class: LW1.model.CalculationResultEntity (class must be instantiated by Interceptor)
+2023-05-04 17:35:21.948  INFO MacBook-Air-Nina.local --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-04 17:35:21.955  INFO MacBook-Air-Nina.local --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-04 17:35:21.962  INFO MacBook-Air-Nina.local --- [           main] L.s.CalculationServiceImpl               : Statistical data is sent
+2023-05-04 17:35:22.086  WARN MacBook-Air-Nina.local --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-04 17:35:22.311  INFO MacBook-Air-Nina.local --- [           main] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-05-04 17:35:22.338  INFO MacBook-Air-Nina.local --- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2023-05-04 17:35:22.347  INFO MacBook-Air-Nina.local --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-04 17:35:22.359  INFO MacBook-Air-Nina.local --- [           main] L.LW1Application                         : Started LW1Application in 2.241 seconds (process running for 2.887)
+2023-05-04 17:35:41.141  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-04 17:35:41.141  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2023-05-04 17:35:41.142  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 1 ms
+2023-05-04 17:35:41.168  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 17:35:41.168  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] L.s.CalculationServiceImpl               : Updated number of calls: 1
+2023-05-04 17:35:41.170  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] L.s.CalculationServiceImpl               : Retrieving the calculations...
+2023-05-04 17:35:41.953  INFO MacBook-Air-Nina.local --- [nio-8080-exec-3] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 17:35:41.953  INFO MacBook-Air-Nina.local --- [nio-8080-exec-3] L.s.CalculationServiceImpl               : Updated number of calls: 2
+2023-05-04 17:35:42.014  INFO MacBook-Air-Nina.local --- [nio-8080-exec-3] L.s.CalculationServiceImpl               : The medium value was calculated
+2023-05-04 17:35:46.188  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] L.s.CalculationServiceImpl               : The mean value was calculated
+2023-05-04 17:35:46.191  INFO MacBook-Air-Nina.local --- [onPool-worker-1] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 17:47:32.621  INFO MacBook-Air-Nina.local --- [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-04 17:47:32.623  INFO MacBook-Air-Nina.local --- [ionShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2023-05-04 17:47:32.626  INFO MacBook-Air-Nina.local --- [ionShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2023-05-04 17:53:09.223  INFO MacBook-Air-Nina.local --- [kground-preinit] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 8.0.0.Final
+2023-05-04 17:53:09.249  INFO MacBook-Air-Nina.local --- [           main] L.LW1Application                         : Starting LW1Application using Java 17.0.6 with PID 5022 (/Users/nina/Java/LW1/target/classes started by nina in /Users/nina/Java/LW1)
+2023-05-04 17:53:09.251  INFO MacBook-Air-Nina.local --- [           main] L.LW1Application                         : No active profile set, falling back to 1 default profile: "default"
+2023-05-04 17:53:09.675  INFO MacBook-Air-Nina.local --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-04 17:53:09.700  INFO MacBook-Air-Nina.local --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 21 ms. Found 1 JPA repository interfaces.
+2023-05-04 17:53:09.974  INFO MacBook-Air-Nina.local --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2023-05-04 17:53:09.978  INFO MacBook-Air-Nina.local --- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2023-05-04 17:53:09.978  INFO MacBook-Air-Nina.local --- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2023-05-04 17:53:09.978  INFO MacBook-Air-Nina.local --- [           main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-05-04 17:53:10.022  INFO MacBook-Air-Nina.local --- [           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2023-05-04 17:53:10.023  INFO MacBook-Air-Nina.local --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 753 ms
+2023-05-04 17:53:10.144  INFO MacBook-Air-Nina.local --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2023-05-04 17:53:10.294  INFO MacBook-Air-Nina.local --- [           main] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3db1ce78
+2023-05-04 17:53:10.295  INFO MacBook-Air-Nina.local --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2023-05-04 17:53:10.316  INFO MacBook-Air-Nina.local --- [           main] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-04 17:53:10.343  INFO MacBook-Air-Nina.local --- [           main] o.h.Version                              : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-05-04 17:53:10.476  INFO MacBook-Air-Nina.local --- [           main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-05-04 17:53:10.477  WARN MacBook-Air-Nina.local --- [           main] o.h.o.deprecation                        : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-05-04 17:53:10.752  INFO MacBook-Air-Nina.local --- [           main] o.h.m.i.EntityInstantiatorPojoStandard   : HHH000182: No default (no-argument) constructor for class: LW1.model.CalculationResultEntity (class must be instantiated by Interceptor)
+2023-05-04 17:53:10.804  INFO MacBook-Air-Nina.local --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-04 17:53:10.809  INFO MacBook-Air-Nina.local --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-04 17:53:10.819  INFO MacBook-Air-Nina.local --- [           main] L.s.CalculationServiceImpl               : Statistical data is sent
+2023-05-04 17:53:10.936  WARN MacBook-Air-Nina.local --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-04 17:53:11.150  INFO MacBook-Air-Nina.local --- [           main] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-05-04 17:53:11.179  INFO MacBook-Air-Nina.local --- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2023-05-04 17:53:11.190  INFO MacBook-Air-Nina.local --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-04 17:53:11.202  INFO MacBook-Air-Nina.local --- [           main] L.LW1Application                         : Started LW1Application in 2.122 seconds (process running for 2.529)
+2023-05-04 17:53:58.140  INFO MacBook-Air-Nina.local --- [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-04 17:53:58.142  INFO MacBook-Air-Nina.local --- [ionShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2023-05-04 17:53:58.145  INFO MacBook-Air-Nina.local --- [ionShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2023-05-04 17:54:01.393  INFO MacBook-Air-Nina.local --- [kground-preinit] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 8.0.0.Final
+2023-05-04 17:54:01.414  INFO MacBook-Air-Nina.local --- [           main] L.LW1Application                         : Starting LW1Application using Java 17.0.6 with PID 5069 (/Users/nina/Java/LW1/target/classes started by nina in /Users/nina/Java/LW1)
+2023-05-04 17:54:01.416  INFO MacBook-Air-Nina.local --- [           main] L.LW1Application                         : No active profile set, falling back to 1 default profile: "default"
+2023-05-04 17:54:01.814  INFO MacBook-Air-Nina.local --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-04 17:54:01.837  INFO MacBook-Air-Nina.local --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19 ms. Found 1 JPA repository interfaces.
+2023-05-04 17:54:02.098  INFO MacBook-Air-Nina.local --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2023-05-04 17:54:02.102  INFO MacBook-Air-Nina.local --- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2023-05-04 17:54:02.103  INFO MacBook-Air-Nina.local --- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2023-05-04 17:54:02.103  INFO MacBook-Air-Nina.local --- [           main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-05-04 17:54:02.141  INFO MacBook-Air-Nina.local --- [           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2023-05-04 17:54:02.142  INFO MacBook-Air-Nina.local --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 709 ms
+2023-05-04 17:54:02.255  INFO MacBook-Air-Nina.local --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2023-05-04 17:54:02.400  INFO MacBook-Air-Nina.local --- [           main] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@d504137
+2023-05-04 17:54:02.401  INFO MacBook-Air-Nina.local --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2023-05-04 17:54:02.426  INFO MacBook-Air-Nina.local --- [           main] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-04 17:54:02.448  INFO MacBook-Air-Nina.local --- [           main] o.h.Version                              : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-05-04 17:54:02.566  INFO MacBook-Air-Nina.local --- [           main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-05-04 17:54:02.567  WARN MacBook-Air-Nina.local --- [           main] o.h.o.deprecation                        : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-05-04 17:54:02.821  INFO MacBook-Air-Nina.local --- [           main] o.h.m.i.EntityInstantiatorPojoStandard   : HHH000182: No default (no-argument) constructor for class: LW1.model.CalculationResultEntity (class must be instantiated by Interceptor)
+2023-05-04 17:54:02.870  INFO MacBook-Air-Nina.local --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-04 17:54:02.874  INFO MacBook-Air-Nina.local --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-04 17:54:02.883  INFO MacBook-Air-Nina.local --- [           main] L.s.CalculationServiceImpl               : Statistical data is sent
+2023-05-04 17:54:03.004  WARN MacBook-Air-Nina.local --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-04 17:54:03.226  INFO MacBook-Air-Nina.local --- [           main] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-05-04 17:54:03.256  INFO MacBook-Air-Nina.local --- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2023-05-04 17:54:03.268  INFO MacBook-Air-Nina.local --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-04 17:54:03.279  INFO MacBook-Air-Nina.local --- [           main] L.LW1Application                         : Started LW1Application in 2.032 seconds (process running for 2.451)
+2023-05-04 17:54:14.357  INFO MacBook-Air-Nina.local --- [nio-8080-exec-2] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-04 17:54:14.357  INFO MacBook-Air-Nina.local --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2023-05-04 17:54:14.359  INFO MacBook-Air-Nina.local --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Completed initialization in 1 ms
+2023-05-04 17:54:14.388  INFO MacBook-Air-Nina.local --- [nio-8080-exec-2] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 17:54:14.388  INFO MacBook-Air-Nina.local --- [nio-8080-exec-2] L.s.CalculationServiceImpl               : Updated number of calls: 1
+2023-05-04 17:54:14.391  INFO MacBook-Air-Nina.local --- [nio-8080-exec-2] L.s.CalculationServiceImpl               : Retrieving the calculations...
+2023-05-04 17:54:19.481  INFO MacBook-Air-Nina.local --- [nio-8080-exec-2] L.s.CalculationServiceImpl               : INTERNAL_SERVER_ERROR occurred
+2023-05-04 17:57:06.985  INFO MacBook-Air-Nina.local --- [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-04 17:57:06.986  INFO MacBook-Air-Nina.local --- [ionShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2023-05-04 17:57:06.989  INFO MacBook-Air-Nina.local --- [ionShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2023-05-04 17:57:11.376  INFO MacBook-Air-Nina.local --- [kground-preinit] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 8.0.0.Final
+2023-05-04 17:57:11.401  INFO MacBook-Air-Nina.local --- [           main] L.LW1Application                         : Starting LW1Application using Java 17.0.6 with PID 5085 (/Users/nina/Java/LW1/target/classes started by nina in /Users/nina/Java/LW1)
+2023-05-04 17:57:11.403  INFO MacBook-Air-Nina.local --- [           main] L.LW1Application                         : No active profile set, falling back to 1 default profile: "default"
+2023-05-04 17:57:11.873  INFO MacBook-Air-Nina.local --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-04 17:57:11.902  INFO MacBook-Air-Nina.local --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 24 ms. Found 1 JPA repository interfaces.
+2023-05-04 17:57:12.198  INFO MacBook-Air-Nina.local --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2023-05-04 17:57:12.204  INFO MacBook-Air-Nina.local --- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2023-05-04 17:57:12.204  INFO MacBook-Air-Nina.local --- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2023-05-04 17:57:12.205  INFO MacBook-Air-Nina.local --- [           main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-05-04 17:57:12.250  INFO MacBook-Air-Nina.local --- [           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2023-05-04 17:57:12.251  INFO MacBook-Air-Nina.local --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 827 ms
+2023-05-04 17:57:12.407  INFO MacBook-Air-Nina.local --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2023-05-04 17:57:12.590  INFO MacBook-Air-Nina.local --- [           main] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2f86f9cf
+2023-05-04 17:57:12.591  INFO MacBook-Air-Nina.local --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2023-05-04 17:57:12.615  INFO MacBook-Air-Nina.local --- [           main] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-04 17:57:12.644  INFO MacBook-Air-Nina.local --- [           main] o.h.Version                              : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-05-04 17:57:12.809  INFO MacBook-Air-Nina.local --- [           main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-05-04 17:57:12.810  WARN MacBook-Air-Nina.local --- [           main] o.h.o.deprecation                        : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-05-04 17:57:13.131  INFO MacBook-Air-Nina.local --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-04 17:57:13.137  INFO MacBook-Air-Nina.local --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-04 17:57:13.143  INFO MacBook-Air-Nina.local --- [           main] L.s.CalculationServiceImpl               : Statistical data is sent
+2023-05-04 17:57:13.283  WARN MacBook-Air-Nina.local --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-04 17:57:13.541  INFO MacBook-Air-Nina.local --- [           main] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-05-04 17:57:13.570  INFO MacBook-Air-Nina.local --- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2023-05-04 17:57:13.587  INFO MacBook-Air-Nina.local --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-04 17:57:13.599  INFO MacBook-Air-Nina.local --- [           main] L.LW1Application                         : Started LW1Application in 2.366 seconds (process running for 2.81)
+2023-05-04 17:57:16.008  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-04 17:57:16.008  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2023-05-04 17:57:16.009  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 1 ms
+2023-05-04 17:57:16.029  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 17:57:16.030  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] L.s.CalculationServiceImpl               : Updated number of calls: 1
+2023-05-04 17:57:16.032  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] L.s.CalculationServiceImpl               : Retrieving the calculations...
+2023-05-04 17:57:21.129  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] L.s.CalculationServiceImpl               : The mean value was calculated
+2023-05-04 17:57:21.130  INFO MacBook-Air-Nina.local --- [onPool-worker-1] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 17:58:43.630  INFO MacBook-Air-Nina.local --- [nio-8080-exec-5] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 17:58:43.632  INFO MacBook-Air-Nina.local --- [nio-8080-exec-5] L.s.CalculationServiceImpl               : Updated number of calls: 2
+2023-05-04 17:58:43.633  INFO MacBook-Air-Nina.local --- [nio-8080-exec-5] L.s.CalculationServiceImpl               : Retrieving the calculations...
+2023-05-04 17:58:48.643  INFO MacBook-Air-Nina.local --- [nio-8080-exec-5] L.s.CalculationServiceImpl               : The mean value was calculated
+2023-05-04 17:58:48.644  INFO MacBook-Air-Nina.local --- [onPool-worker-2] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 18:06:44.569  INFO MacBook-Air-Nina.local --- [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-04 18:06:44.571  INFO MacBook-Air-Nina.local --- [ionShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2023-05-04 18:06:44.574  INFO MacBook-Air-Nina.local --- [ionShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2023-05-04 18:06:58.352  INFO MacBook-Air-Nina.local --- [kground-preinit] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 8.0.0.Final
+2023-05-04 18:06:58.375  INFO MacBook-Air-Nina.local --- [           main] L.LW1Application                         : Starting LW1Application using Java 17.0.6 with PID 5174 (/Users/nina/Java/LW1/target/classes started by nina in /Users/nina/Java/LW1)
+2023-05-04 18:06:58.377  INFO MacBook-Air-Nina.local --- [           main] L.LW1Application                         : No active profile set, falling back to 1 default profile: "default"
+2023-05-04 18:06:58.781  INFO MacBook-Air-Nina.local --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-04 18:06:58.806  INFO MacBook-Air-Nina.local --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 20 ms. Found 1 JPA repository interfaces.
+2023-05-04 18:06:59.065  INFO MacBook-Air-Nina.local --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2023-05-04 18:06:59.069  INFO MacBook-Air-Nina.local --- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2023-05-04 18:06:59.069  INFO MacBook-Air-Nina.local --- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2023-05-04 18:06:59.069  INFO MacBook-Air-Nina.local --- [           main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-05-04 18:06:59.107  INFO MacBook-Air-Nina.local --- [           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2023-05-04 18:06:59.108  INFO MacBook-Air-Nina.local --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 713 ms
+2023-05-04 18:06:59.230  INFO MacBook-Air-Nina.local --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2023-05-04 18:06:59.380  INFO MacBook-Air-Nina.local --- [           main] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3a16984c
+2023-05-04 18:06:59.381  INFO MacBook-Air-Nina.local --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2023-05-04 18:06:59.402  INFO MacBook-Air-Nina.local --- [           main] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-04 18:06:59.423  INFO MacBook-Air-Nina.local --- [           main] o.h.Version                              : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-05-04 18:06:59.537  INFO MacBook-Air-Nina.local --- [           main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-05-04 18:06:59.538  WARN MacBook-Air-Nina.local --- [           main] o.h.o.deprecation                        : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-05-04 18:06:59.846  INFO MacBook-Air-Nina.local --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-04 18:06:59.853  INFO MacBook-Air-Nina.local --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-04 18:06:59.859  INFO MacBook-Air-Nina.local --- [           main] L.s.CalculationServiceImpl               : Statistical data is sent
+2023-05-04 18:06:59.981  WARN MacBook-Air-Nina.local --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-04 18:07:00.193  INFO MacBook-Air-Nina.local --- [           main] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-05-04 18:07:00.219  INFO MacBook-Air-Nina.local --- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2023-05-04 18:07:00.228  INFO MacBook-Air-Nina.local --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-04 18:07:00.239  INFO MacBook-Air-Nina.local --- [           main] L.LW1Application                         : Started LW1Application in 2.018 seconds (process running for 2.61)
+2023-05-04 18:07:12.635  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-04 18:07:12.635  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2023-05-04 18:07:12.636  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 1 ms
+2023-05-04 18:07:12.663  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 18:07:12.664  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] L.s.CalculationServiceImpl               : Updated number of calls: 1
+2023-05-04 18:07:12.666  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] L.s.CalculationServiceImpl               : Retrieving the calculations...
+2023-05-04 18:07:17.767  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] L.s.CalculationServiceImpl               : The mean value was calculated
+2023-05-04 18:07:17.768  INFO MacBook-Air-Nina.local --- [onPool-worker-1] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 18:13:38.177  INFO MacBook-Air-Nina.local --- [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-04 18:13:38.179  INFO MacBook-Air-Nina.local --- [ionShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2023-05-04 18:13:38.183  INFO MacBook-Air-Nina.local --- [ionShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2023-05-04 18:13:43.361  INFO MacBook-Air-Nina.local --- [kground-preinit] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 8.0.0.Final
+2023-05-04 18:13:43.386  INFO MacBook-Air-Nina.local --- [           main] L.LW1Application                         : Starting LW1Application using Java 17.0.6 with PID 5250 (/Users/nina/Java/LW1/target/classes started by nina in /Users/nina/Java/LW1)
+2023-05-04 18:13:43.387  INFO MacBook-Air-Nina.local --- [           main] L.LW1Application                         : No active profile set, falling back to 1 default profile: "default"
+2023-05-04 18:13:43.803  INFO MacBook-Air-Nina.local --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-04 18:13:43.828  INFO MacBook-Air-Nina.local --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 20 ms. Found 1 JPA repository interfaces.
+2023-05-04 18:13:44.092  INFO MacBook-Air-Nina.local --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2023-05-04 18:13:44.096  INFO MacBook-Air-Nina.local --- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2023-05-04 18:13:44.096  INFO MacBook-Air-Nina.local --- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2023-05-04 18:13:44.096  INFO MacBook-Air-Nina.local --- [           main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-05-04 18:13:44.136  INFO MacBook-Air-Nina.local --- [           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2023-05-04 18:13:44.137  INFO MacBook-Air-Nina.local --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 730 ms
+2023-05-04 18:13:44.265  INFO MacBook-Air-Nina.local --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2023-05-04 18:13:44.418  INFO MacBook-Air-Nina.local --- [           main] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3a16984c
+2023-05-04 18:13:44.419  INFO MacBook-Air-Nina.local --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2023-05-04 18:13:44.442  INFO MacBook-Air-Nina.local --- [           main] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-04 18:13:44.466  INFO MacBook-Air-Nina.local --- [           main] o.h.Version                              : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-05-04 18:13:44.587  INFO MacBook-Air-Nina.local --- [           main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-05-04 18:13:44.588  WARN MacBook-Air-Nina.local --- [           main] o.h.o.deprecation                        : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-05-04 18:13:44.887  INFO MacBook-Air-Nina.local --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-04 18:13:44.893  INFO MacBook-Air-Nina.local --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-04 18:13:44.900  INFO MacBook-Air-Nina.local --- [           main] L.s.CalculationServiceImpl               : Statistical data is sent
+2023-05-04 18:13:45.021  WARN MacBook-Air-Nina.local --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-04 18:13:45.239  INFO MacBook-Air-Nina.local --- [           main] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-05-04 18:13:45.271  INFO MacBook-Air-Nina.local --- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2023-05-04 18:13:45.281  INFO MacBook-Air-Nina.local --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-04 18:13:45.292  INFO MacBook-Air-Nina.local --- [           main] L.LW1Application                         : Started LW1Application in 2.065 seconds (process running for 2.589)
+2023-05-04 18:13:51.673  INFO MacBook-Air-Nina.local --- [nio-8080-exec-2] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-04 18:13:51.673  INFO MacBook-Air-Nina.local --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2023-05-04 18:13:51.674  INFO MacBook-Air-Nina.local --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Completed initialization in 1 ms
+2023-05-04 18:13:51.703  INFO MacBook-Air-Nina.local --- [nio-8080-exec-2] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 18:13:51.703  INFO MacBook-Air-Nina.local --- [nio-8080-exec-2] L.s.CalculationServiceImpl               : Updated number of calls: 1
+2023-05-04 18:13:51.778  INFO MacBook-Air-Nina.local --- [nio-8080-exec-2] L.s.CalculationServiceImpl               : The mean value was calculated
+2023-05-04 18:13:51.779  INFO MacBook-Air-Nina.local --- [onPool-worker-1] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 18:13:57.307  INFO MacBook-Air-Nina.local --- [nio-8080-exec-3] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 18:13:57.308  INFO MacBook-Air-Nina.local --- [nio-8080-exec-3] L.s.CalculationServiceImpl               : Updated number of calls: 2
+2023-05-04 18:13:57.324  INFO MacBook-Air-Nina.local --- [nio-8080-exec-3] L.s.CalculationServiceImpl               : The mean value was calculated
+2023-05-04 18:13:57.324  INFO MacBook-Air-Nina.local --- [onPool-worker-1] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 18:14:03.770  INFO MacBook-Air-Nina.local --- [nio-8080-exec-5] L.s.CalculationServiceImpl               : Request received!
+2023-05-04 18:14:03.770  INFO MacBook-Air-Nina.local --- [nio-8080-exec-5] L.s.CalculationServiceImpl               : Updated number of calls: 3
+2023-05-04 18:14:03.777  INFO MacBook-Air-Nina.local --- [nio-8080-exec-5] L.s.CalculationServiceImpl               : The mean value was calculated
+2023-05-04 18:14:03.777  INFO MacBook-Air-Nina.local --- [onPool-worker-1] L.s.CalculationServiceImpl               : Data retrieved!
+2023-05-04 18:14:27.871  INFO MacBook-Air-Nina.local --- [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-04 18:14:27.873  INFO MacBook-Air-Nina.local --- [ionShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2023-05-04 18:14:27.876  INFO MacBook-Air-Nina.local --- [ionShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.

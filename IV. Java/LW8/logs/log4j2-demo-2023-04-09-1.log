@@ -1,0 +1,142 @@
+2023-04-09 22:39:33.747  INFO MacBook-Air-Nina.local --- [kground-preinit] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 8.0.0.Final
+2023-04-09 22:39:33.787  INFO MacBook-Air-Nina.local --- [           main] L.LW1Application                         : Starting LW1Application using Java 17.0.6 with PID 2447 (/Users/nina/Java/LW1/target/classes started by nina in /Users/nina/Java/LW1)
+2023-04-09 22:39:33.794  INFO MacBook-Air-Nina.local --- [           main] L.LW1Application                         : No active profile set, falling back to 1 default profile: "default"
+2023-04-09 22:39:34.415  INFO MacBook-Air-Nina.local --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2023-04-09 22:39:34.422  INFO MacBook-Air-Nina.local --- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2023-04-09 22:39:34.422  INFO MacBook-Air-Nina.local --- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2023-04-09 22:39:34.423  INFO MacBook-Air-Nina.local --- [           main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-04-09 22:39:34.462  INFO MacBook-Air-Nina.local --- [           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2023-04-09 22:39:34.463  INFO MacBook-Air-Nina.local --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 642 ms
+2023-04-09 22:39:34.739  INFO MacBook-Air-Nina.local --- [           main] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-04-09 22:39:34.761  INFO MacBook-Air-Nina.local --- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2023-04-09 22:39:34.764  WARN MacBook-Air-Nina.local --- [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2023-04-09 22:39:34.767  INFO MacBook-Air-Nina.local --- [           main] o.a.c.h.Http11NioProtocol                : Pausing ProtocolHandler ["http-nio-8080"]
+2023-04-09 22:39:34.767  INFO MacBook-Air-Nina.local --- [           main] o.a.c.c.StandardService                  : Stopping service [Tomcat]
+2023-04-09 22:39:34.770  INFO MacBook-Air-Nina.local --- [           main] o.a.c.h.Http11NioProtocol                : Stopping ProtocolHandler ["http-nio-8080"]
+2023-04-09 22:39:34.771  INFO MacBook-Air-Nina.local --- [           main] o.a.c.h.Http11NioProtocol                : Destroying ProtocolHandler ["http-nio-8080"]
+2023-04-09 22:39:34.777  INFO MacBook-Air-Nina.local --- [           main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-04-09 22:39:34.785 ERROR MacBook-Air-Nina.local --- [           main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2023-04-09 22:40:02.539  INFO MacBook-Air-Nina.local --- [kground-preinit] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 8.0.0.Final
+2023-04-09 22:40:02.563  INFO MacBook-Air-Nina.local --- [           main] L.LW1Application                         : Starting LW1Application using Java 17.0.6 with PID 2485 (/Users/nina/Java/LW1/target/classes started by nina in /Users/nina/Java/LW1)
+2023-04-09 22:40:02.565  INFO MacBook-Air-Nina.local --- [           main] L.LW1Application                         : No active profile set, falling back to 1 default profile: "default"
+2023-04-09 22:40:03.160  INFO MacBook-Air-Nina.local --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2023-04-09 22:40:03.165  INFO MacBook-Air-Nina.local --- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2023-04-09 22:40:03.166  INFO MacBook-Air-Nina.local --- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2023-04-09 22:40:03.166  INFO MacBook-Air-Nina.local --- [           main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-04-09 22:40:03.208  INFO MacBook-Air-Nina.local --- [           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2023-04-09 22:40:03.209  INFO MacBook-Air-Nina.local --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 623 ms
+2023-04-09 22:40:03.547  INFO MacBook-Air-Nina.local --- [           main] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-04-09 22:40:03.570  INFO MacBook-Air-Nina.local --- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2023-04-09 22:40:03.581  INFO MacBook-Air-Nina.local --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-09 22:40:03.592  INFO MacBook-Air-Nina.local --- [           main] L.LW1Application                         : Started LW1Application in 1.192 seconds (process running for 1.655)
+2023-04-09 22:40:08.905  INFO MacBook-Air-Nina.local --- [nio-8080-exec-2] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-09 22:40:08.905  INFO MacBook-Air-Nina.local --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2023-04-09 22:40:08.906  INFO MacBook-Air-Nina.local --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Completed initialization in 1 ms
+2023-04-09 22:40:08.935  INFO MacBook-Air-Nina.local --- [nio-8080-exec-2] L.s.CalculationServiceImpl               : INTERNAL_SERVER_ERROR occurred
+2023-04-09 22:40:13.447  INFO MacBook-Air-Nina.local --- [nio-8080-exec-4] L.s.CalculationServiceImpl               : Request received!
+2023-04-09 22:40:13.448  INFO MacBook-Air-Nina.local --- [nio-8080-exec-4] L.s.CalculationServiceImpl               : Updated number of calls: 1
+2023-04-09 22:40:13.455  INFO MacBook-Air-Nina.local --- [nio-8080-exec-4] L.s.CalculationServiceImpl               : The medium value was calculated
+2023-04-09 22:40:28.833  INFO MacBook-Air-Nina.local --- [nio-8080-exec-3] L.s.CalculationServiceImpl               : Request received!
+2023-04-09 22:40:28.834  INFO MacBook-Air-Nina.local --- [nio-8080-exec-3] L.s.CalculationServiceImpl               : Updated number of calls: 2
+2023-04-09 22:40:28.836  INFO MacBook-Air-Nina.local --- [nio-8080-exec-3] L.s.CalculationServiceImpl               : Data retrieved!
+2023-04-09 22:40:52.820  INFO MacBook-Air-Nina.local --- [nio-8080-exec-5] L.s.CalculationServiceImpl               : Request received!
+2023-04-09 22:40:52.821  INFO MacBook-Air-Nina.local --- [nio-8080-exec-5] L.s.CalculationServiceImpl               : Updated number of calls: 3
+2023-04-09 22:40:52.821  INFO MacBook-Air-Nina.local --- [nio-8080-exec-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-04-09 22:41:14.868  INFO MacBook-Air-Nina.local --- [kground-preinit] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 8.0.0.Final
+2023-04-09 22:41:14.888  INFO MacBook-Air-Nina.local --- [           main] L.LW1Application                         : Starting LW1Application using Java 17.0.6 with PID 2490 (/Users/nina/Java/LW1/target/classes started by nina in /Users/nina/Java/LW1)
+2023-04-09 22:41:14.889  INFO MacBook-Air-Nina.local --- [           main] L.LW1Application                         : No active profile set, falling back to 1 default profile: "default"
+2023-04-09 22:41:15.480  INFO MacBook-Air-Nina.local --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2023-04-09 22:41:15.485  INFO MacBook-Air-Nina.local --- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2023-04-09 22:41:15.486  INFO MacBook-Air-Nina.local --- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2023-04-09 22:41:15.486  INFO MacBook-Air-Nina.local --- [           main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-04-09 22:41:15.528  INFO MacBook-Air-Nina.local --- [           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2023-04-09 22:41:15.529  INFO MacBook-Air-Nina.local --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 615 ms
+2023-04-09 22:41:15.870  INFO MacBook-Air-Nina.local --- [           main] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-04-09 22:41:15.903  INFO MacBook-Air-Nina.local --- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2023-04-09 22:41:15.915  INFO MacBook-Air-Nina.local --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-09 22:41:15.927  INFO MacBook-Air-Nina.local --- [           main] L.LW1Application                         : Started LW1Application in 1.193 seconds (process running for 1.635)
+2023-04-09 22:41:18.885  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-09 22:41:18.886  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2023-04-09 22:41:18.887  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 1 ms
+2023-04-09 22:41:18.916  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] L.s.CalculationServiceImpl               : Request received!
+2023-04-09 22:41:18.917  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] L.s.CalculationServiceImpl               : Updated number of calls: 1
+2023-04-09 22:41:18.919  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] L.s.CalculationServiceImpl               : Retrieving the calculations...
+2023-04-09 22:41:21.924  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] L.s.CalculationServiceImpl               : The mean value was calculated
+2023-04-09 22:41:21.927  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] L.s.CalculationServiceImpl               : Data retrieved!
+2023-04-09 23:41:39.677  INFO MacBook-Air-Nina.local --- [kground-preinit] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 8.0.0.Final
+2023-04-09 23:41:39.697  INFO MacBook-Air-Nina.local --- [           main] L.LW1Application                         : Starting LW1Application using Java 17.0.6 with PID 2612 (/Users/nina/Java/LW1/target/classes started by nina in /Users/nina/Java/LW1)
+2023-04-09 23:41:39.699  INFO MacBook-Air-Nina.local --- [           main] L.LW1Application                         : No active profile set, falling back to 1 default profile: "default"
+2023-04-09 23:41:40.226  INFO MacBook-Air-Nina.local --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2023-04-09 23:41:40.230  INFO MacBook-Air-Nina.local --- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2023-04-09 23:41:40.230  INFO MacBook-Air-Nina.local --- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2023-04-09 23:41:40.230  INFO MacBook-Air-Nina.local --- [           main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-04-09 23:41:40.266  INFO MacBook-Air-Nina.local --- [           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2023-04-09 23:41:40.267  INFO MacBook-Air-Nina.local --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 546 ms
+2023-04-09 23:41:40.547  INFO MacBook-Air-Nina.local --- [           main] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-04-09 23:41:40.570  INFO MacBook-Air-Nina.local --- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2023-04-09 23:41:40.581  INFO MacBook-Air-Nina.local --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-09 23:41:40.589  INFO MacBook-Air-Nina.local --- [           main] L.LW1Application                         : Started LW1Application in 1.023 seconds (process running for 1.559)
+2023-04-09 23:41:43.397  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-09 23:41:43.397  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2023-04-09 23:41:43.398  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 0 ms
+2023-04-09 23:41:43.442  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] L.s.CalculationServiceImpl               : INTERNAL_SERVER_ERROR occurred
+2023-04-09 23:42:01.148  INFO MacBook-Air-Nina.local --- [nio-8080-exec-5] L.s.CalculationServiceImpl               : INTERNAL_SERVER_ERROR occurred
+2023-04-09 23:43:57.119  INFO MacBook-Air-Nina.local --- [nio-8080-exec-6] L.s.CalculationServiceImpl               : Bulk request received!
+2023-04-09 23:43:57.119  INFO MacBook-Air-Nina.local --- [nio-8080-exec-6] L.s.CalculationServiceImpl               : Updated number of calls: 1
+2023-04-09 23:43:57.125  INFO MacBook-Air-Nina.local --- [nio-8080-exec-6] L.s.CalculationServiceImpl               : Retrieving the calculations...
+2023-04-09 23:44:00.130  INFO MacBook-Air-Nina.local --- [nio-8080-exec-6] L.s.CalculationServiceImpl               : The mean value was calculated
+2023-04-09 23:44:00.133  INFO MacBook-Air-Nina.local --- [nio-8080-exec-6] L.s.CalculationServiceImpl               : Retrieving the calculations...
+2023-04-09 23:44:03.135  INFO MacBook-Air-Nina.local --- [nio-8080-exec-6] L.s.CalculationServiceImpl               : The mean value was calculated
+2023-04-09 23:44:03.136  INFO MacBook-Air-Nina.local --- [nio-8080-exec-6] L.s.CalculationServiceImpl               : Retrieving the calculations...
+2023-04-09 23:44:06.141  INFO MacBook-Air-Nina.local --- [nio-8080-exec-6] L.s.CalculationServiceImpl               : The mean value was calculated
+2023-04-09 23:44:06.142  INFO MacBook-Air-Nina.local --- [nio-8080-exec-6] L.s.CalculationServiceImpl               : Data retrieved!
+2023-04-09 23:44:19.091  INFO MacBook-Air-Nina.local --- [nio-8080-exec-8] L.s.CalculationServiceImpl               : Bulk request received!
+2023-04-09 23:44:19.092  INFO MacBook-Air-Nina.local --- [nio-8080-exec-8] L.s.CalculationServiceImpl               : Updated number of calls: 2
+2023-04-09 23:44:19.094  INFO MacBook-Air-Nina.local --- [nio-8080-exec-8] L.s.CalculationServiceImpl               : Data retrieved!
+2023-04-09 23:45:45.534  INFO MacBook-Air-Nina.local --- [kground-preinit] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 8.0.0.Final
+2023-04-09 23:45:45.555  INFO MacBook-Air-Nina.local --- [           main] L.LW1Application                         : Starting LW1Application using Java 17.0.6 with PID 2626 (/Users/nina/Java/LW1/target/classes started by nina in /Users/nina/Java/LW1)
+2023-04-09 23:45:45.556  INFO MacBook-Air-Nina.local --- [           main] L.LW1Application                         : No active profile set, falling back to 1 default profile: "default"
+2023-04-09 23:45:46.114  INFO MacBook-Air-Nina.local --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2023-04-09 23:45:46.118  INFO MacBook-Air-Nina.local --- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2023-04-09 23:45:46.118  INFO MacBook-Air-Nina.local --- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2023-04-09 23:45:46.119  INFO MacBook-Air-Nina.local --- [           main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-04-09 23:45:46.155  INFO MacBook-Air-Nina.local --- [           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2023-04-09 23:45:46.156  INFO MacBook-Air-Nina.local --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 575 ms
+2023-04-09 23:45:46.466  INFO MacBook-Air-Nina.local --- [           main] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-04-09 23:45:46.488  INFO MacBook-Air-Nina.local --- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2023-04-09 23:45:46.498  INFO MacBook-Air-Nina.local --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-09 23:45:46.510  INFO MacBook-Air-Nina.local --- [           main] L.LW1Application                         : Started LW1Application in 1.09 seconds (process running for 1.696)
+2023-04-09 23:45:50.809  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-09 23:45:50.809  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2023-04-09 23:45:50.811  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 2 ms
+2023-04-09 23:45:50.870  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] L.s.CalculationServiceImpl               : Bulk request received!
+2023-04-09 23:45:50.870  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] L.s.CalculationServiceImpl               : Updated number of calls: 1
+2023-04-09 23:45:50.873  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] L.s.CalculationServiceImpl               : Retrieving the calculations...
+2023-04-09 23:45:53.878  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] L.s.CalculationServiceImpl               : The mean value was calculated
+2023-04-09 23:45:53.881  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] L.s.CalculationServiceImpl               : Retrieving the calculations...
+2023-04-09 23:45:56.882  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] L.s.CalculationServiceImpl               : The mean value was calculated
+2023-04-09 23:45:56.884  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] L.s.CalculationServiceImpl               : Retrieving the calculations...
+2023-04-09 23:45:59.886  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] L.s.CalculationServiceImpl               : The mean value was calculated
+2023-04-09 23:45:59.887  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] L.s.CalculationServiceImpl               : Data retrieved!
+2023-04-09 23:46:06.075  INFO MacBook-Air-Nina.local --- [nio-8080-exec-3] L.s.CalculationServiceImpl               : Bulk request received!
+2023-04-09 23:46:06.076  INFO MacBook-Air-Nina.local --- [nio-8080-exec-3] L.s.CalculationServiceImpl               : Updated number of calls: 2
+2023-04-09 23:46:06.077  INFO MacBook-Air-Nina.local --- [nio-8080-exec-3] L.s.CalculationServiceImpl               : The medium value was calculated
+2023-04-09 23:46:06.077  INFO MacBook-Air-Nina.local --- [nio-8080-exec-3] L.s.CalculationServiceImpl               : The medium value was calculated
+2023-04-09 23:46:06.077  INFO MacBook-Air-Nina.local --- [nio-8080-exec-3] L.s.CalculationServiceImpl               : The medium value was calculated
+2023-04-09 23:46:06.077  INFO MacBook-Air-Nina.local --- [nio-8080-exec-3] L.s.CalculationServiceImpl               : Data retrieved!
+2023-04-09 23:46:21.362  INFO MacBook-Air-Nina.local --- [nio-8080-exec-4] L.s.CalculationServiceImpl               : INTERNAL_SERVER_ERROR occurred

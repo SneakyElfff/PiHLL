@@ -1,0 +1,176 @@
+2023-04-24 08:40:19.612  INFO MacBook-Air-Nina.local --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [LW1.Lw1ApplicationTests]: Lw1ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-04-24 08:40:19.670  INFO MacBook-Air-Nina.local --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration LW1.LW1Application for test class LW1.Lw1ApplicationTests
+2023-04-24 08:40:19.855  INFO MacBook-Air-Nina.local --- [kground-preinit] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 8.0.0.Final
+2023-04-24 08:40:19.873  INFO MacBook-Air-Nina.local --- [           main] L.Lw1ApplicationTests                    : Starting Lw1ApplicationTests using Java 17.0.6 with PID 1101 (started by nina in /Users/nina/Java/LW1)
+2023-04-24 08:40:19.882  INFO MacBook-Air-Nina.local --- [           main] L.Lw1ApplicationTests                    : No active profile set, falling back to 1 default profile: "default"
+2023-04-24 08:40:20.524  INFO MacBook-Air-Nina.local --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-24 08:40:20.554  INFO MacBook-Air-Nina.local --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 23 ms. Found 1 JPA repository interfaces.
+2023-04-24 08:40:20.852  INFO MacBook-Air-Nina.local --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2023-04-24 08:40:21.111  INFO MacBook-Air-Nina.local --- [           main] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2864f887
+2023-04-24 08:40:21.113  INFO MacBook-Air-Nina.local --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2023-04-24 08:40:21.138  INFO MacBook-Air-Nina.local --- [           main] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-24 08:40:21.172  INFO MacBook-Air-Nina.local --- [           main] o.h.Version                              : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-04-24 08:40:21.404  INFO MacBook-Air-Nina.local --- [           main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-04-24 08:40:21.405  WARN MacBook-Air-Nina.local --- [           main] o.h.o.deprecation                        : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-04-24 08:40:21.824  INFO MacBook-Air-Nina.local --- [           main] o.h.m.i.EntityInstantiatorPojoStandard   : HHH000182: No default (no-argument) constructor for class: LW1.model.CalculationResultEntity (class must be instantiated by Interceptor)
+2023-04-24 08:40:21.877  INFO MacBook-Air-Nina.local --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-24 08:40:21.882  INFO MacBook-Air-Nina.local --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-24 08:40:21.894  INFO MacBook-Air-Nina.local --- [           main] L.s.CalculationServiceImpl               : Statistical data is sent
+2023-04-24 08:40:22.187  WARN MacBook-Air-Nina.local --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-24 08:40:22.506  INFO MacBook-Air-Nina.local --- [           main] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-04-24 08:40:22.555  INFO MacBook-Air-Nina.local --- [           main] L.Lw1ApplicationTests                    : Started Lw1ApplicationTests in 2.814 seconds (process running for 3.64)
+2023-04-24 08:40:22.682  INFO MacBook-Air-Nina.local --- [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-24 08:40:22.683  INFO MacBook-Air-Nina.local --- [ionShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2023-04-24 08:40:22.688  INFO MacBook-Air-Nina.local --- [ionShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2023-04-24 08:41:39.432  INFO MacBook-Air-Nina.local --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [LW1.Lw1ApplicationTests]: Lw1ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-04-24 08:41:39.479  INFO MacBook-Air-Nina.local --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration LW1.LW1Application for test class LW1.Lw1ApplicationTests
+2023-04-24 08:41:39.624  INFO MacBook-Air-Nina.local --- [kground-preinit] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 8.0.0.Final
+2023-04-24 08:41:39.634  INFO MacBook-Air-Nina.local --- [           main] L.Lw1ApplicationTests                    : Starting Lw1ApplicationTests using Java 17.0.6 with PID 1216 (started by nina in /Users/nina/Java/LW1)
+2023-04-24 08:41:39.636  INFO MacBook-Air-Nina.local --- [           main] L.Lw1ApplicationTests                    : No active profile set, falling back to 1 default profile: "default"
+2023-04-24 08:41:40.137  INFO MacBook-Air-Nina.local --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-24 08:41:40.167  INFO MacBook-Air-Nina.local --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 25 ms. Found 1 JPA repository interfaces.
+2023-04-24 08:41:40.434  INFO MacBook-Air-Nina.local --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2023-04-24 08:41:40.625  INFO MacBook-Air-Nina.local --- [           main] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@20b54cfe
+2023-04-24 08:41:40.625  INFO MacBook-Air-Nina.local --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2023-04-24 08:41:40.649  INFO MacBook-Air-Nina.local --- [           main] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-24 08:41:40.673  INFO MacBook-Air-Nina.local --- [           main] o.h.Version                              : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-04-24 08:41:40.835  INFO MacBook-Air-Nina.local --- [           main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-04-24 08:41:40.836  WARN MacBook-Air-Nina.local --- [           main] o.h.o.deprecation                        : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-04-24 08:41:41.089  INFO MacBook-Air-Nina.local --- [           main] o.h.m.i.EntityInstantiatorPojoStandard   : HHH000182: No default (no-argument) constructor for class: LW1.model.CalculationResultEntity (class must be instantiated by Interceptor)
+2023-04-24 08:41:41.128  INFO MacBook-Air-Nina.local --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-24 08:41:41.132  INFO MacBook-Air-Nina.local --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-24 08:41:41.138  INFO MacBook-Air-Nina.local --- [           main] L.s.CalculationServiceImpl               : Statistical data is sent
+2023-04-24 08:41:41.360  WARN MacBook-Air-Nina.local --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-24 08:41:41.685  INFO MacBook-Air-Nina.local --- [           main] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-04-24 08:41:41.728  INFO MacBook-Air-Nina.local --- [           main] L.Lw1ApplicationTests                    : Started Lw1ApplicationTests in 2.194 seconds (process running for 2.871)
+2023-04-24 08:41:41.832  INFO MacBook-Air-Nina.local --- [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-24 08:41:41.834  INFO MacBook-Air-Nina.local --- [ionShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2023-04-24 08:41:41.839  INFO MacBook-Air-Nina.local --- [ionShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2023-04-24 08:43:12.374  INFO MacBook-Air-Nina.local --- [kground-preinit] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 8.0.0.Final
+2023-04-24 08:43:12.397  INFO MacBook-Air-Nina.local --- [           main] L.LW1Application                         : Starting LW1Application using Java 17.0.6 with PID 1237 (/Users/nina/Java/LW1/target/classes started by nina in /Users/nina/Java/LW1)
+2023-04-24 08:43:12.399  INFO MacBook-Air-Nina.local --- [           main] L.LW1Application                         : No active profile set, falling back to 1 default profile: "default"
+2023-04-24 08:43:12.818  INFO MacBook-Air-Nina.local --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-24 08:43:12.845  INFO MacBook-Air-Nina.local --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 24 ms. Found 1 JPA repository interfaces.
+2023-04-24 08:43:13.140  INFO MacBook-Air-Nina.local --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2023-04-24 08:43:13.144  INFO MacBook-Air-Nina.local --- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2023-04-24 08:43:13.145  INFO MacBook-Air-Nina.local --- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2023-04-24 08:43:13.145  INFO MacBook-Air-Nina.local --- [           main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-04-24 08:43:13.186  INFO MacBook-Air-Nina.local --- [           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2023-04-24 08:43:13.187  INFO MacBook-Air-Nina.local --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 770 ms
+2023-04-24 08:43:13.329  INFO MacBook-Air-Nina.local --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2023-04-24 08:43:13.508  INFO MacBook-Air-Nina.local --- [           main] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@15c16f19
+2023-04-24 08:43:13.512  INFO MacBook-Air-Nina.local --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2023-04-24 08:43:13.533  INFO MacBook-Air-Nina.local --- [           main] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-24 08:43:13.556  INFO MacBook-Air-Nina.local --- [           main] o.h.Version                              : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-04-24 08:43:13.695  INFO MacBook-Air-Nina.local --- [           main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-04-24 08:43:13.696  WARN MacBook-Air-Nina.local --- [           main] o.h.o.deprecation                        : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-04-24 08:43:13.973  INFO MacBook-Air-Nina.local --- [           main] o.h.m.i.EntityInstantiatorPojoStandard   : HHH000182: No default (no-argument) constructor for class: LW1.model.CalculationResultEntity (class must be instantiated by Interceptor)
+2023-04-24 08:43:14.013  INFO MacBook-Air-Nina.local --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-24 08:43:14.017  INFO MacBook-Air-Nina.local --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-24 08:43:14.029  INFO MacBook-Air-Nina.local --- [           main] L.s.CalculationServiceImpl               : Statistical data is sent
+2023-04-24 08:43:14.162  WARN MacBook-Air-Nina.local --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-24 08:43:14.414  INFO MacBook-Air-Nina.local --- [           main] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-04-24 08:43:14.447  INFO MacBook-Air-Nina.local --- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2023-04-24 08:43:14.452  WARN MacBook-Air-Nina.local --- [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2023-04-24 08:43:14.454  INFO MacBook-Air-Nina.local --- [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-24 08:43:14.455  INFO MacBook-Air-Nina.local --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2023-04-24 08:43:14.459  INFO MacBook-Air-Nina.local --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2023-04-24 08:43:14.460  INFO MacBook-Air-Nina.local --- [           main] o.a.c.h.Http11NioProtocol                : Pausing ProtocolHandler ["http-nio-8080"]
+2023-04-24 08:43:14.461  INFO MacBook-Air-Nina.local --- [           main] o.a.c.c.StandardService                  : Stopping service [Tomcat]
+2023-04-24 08:43:14.464  INFO MacBook-Air-Nina.local --- [           main] o.a.c.h.Http11NioProtocol                : Stopping ProtocolHandler ["http-nio-8080"]
+2023-04-24 08:43:14.464  INFO MacBook-Air-Nina.local --- [           main] o.a.c.h.Http11NioProtocol                : Destroying ProtocolHandler ["http-nio-8080"]
+2023-04-24 08:43:14.472  INFO MacBook-Air-Nina.local --- [           main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-04-24 08:43:14.479 ERROR MacBook-Air-Nina.local --- [           main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2023-04-24 08:43:56.142  INFO MacBook-Air-Nina.local --- [kground-preinit] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 8.0.0.Final
+2023-04-24 08:43:56.166  INFO MacBook-Air-Nina.local --- [           main] L.LW1Application                         : Starting LW1Application using Java 17.0.6 with PID 1267 (/Users/nina/Java/LW1/target/classes started by nina in /Users/nina/Java/LW1)
+2023-04-24 08:43:56.168  INFO MacBook-Air-Nina.local --- [           main] L.LW1Application                         : No active profile set, falling back to 1 default profile: "default"
+2023-04-24 08:43:56.599  INFO MacBook-Air-Nina.local --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-24 08:43:56.625  INFO MacBook-Air-Nina.local --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 22 ms. Found 1 JPA repository interfaces.
+2023-04-24 08:43:56.905  INFO MacBook-Air-Nina.local --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2023-04-24 08:43:56.910  INFO MacBook-Air-Nina.local --- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2023-04-24 08:43:56.911  INFO MacBook-Air-Nina.local --- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2023-04-24 08:43:56.911  INFO MacBook-Air-Nina.local --- [           main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-04-24 08:43:56.957  INFO MacBook-Air-Nina.local --- [           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2023-04-24 08:43:56.958  INFO MacBook-Air-Nina.local --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 771 ms
+2023-04-24 08:43:57.111  INFO MacBook-Air-Nina.local --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2023-04-24 08:43:57.287  INFO MacBook-Air-Nina.local --- [           main] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2b3f7704
+2023-04-24 08:43:57.289  INFO MacBook-Air-Nina.local --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2023-04-24 08:43:57.314  INFO MacBook-Air-Nina.local --- [           main] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-24 08:43:57.345  INFO MacBook-Air-Nina.local --- [           main] o.h.Version                              : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-04-24 08:43:57.485  INFO MacBook-Air-Nina.local --- [           main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-04-24 08:43:57.486  WARN MacBook-Air-Nina.local --- [           main] o.h.o.deprecation                        : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-04-24 08:43:57.758  INFO MacBook-Air-Nina.local --- [           main] o.h.m.i.EntityInstantiatorPojoStandard   : HHH000182: No default (no-argument) constructor for class: LW1.model.CalculationResultEntity (class must be instantiated by Interceptor)
+2023-04-24 08:43:57.797  INFO MacBook-Air-Nina.local --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-24 08:43:57.801  INFO MacBook-Air-Nina.local --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-24 08:43:57.807  INFO MacBook-Air-Nina.local --- [           main] L.s.CalculationServiceImpl               : Statistical data is sent
+2023-04-24 08:43:57.950  WARN MacBook-Air-Nina.local --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-24 08:43:58.203  INFO MacBook-Air-Nina.local --- [           main] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-04-24 08:43:58.234  INFO MacBook-Air-Nina.local --- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2023-04-24 08:43:58.250  INFO MacBook-Air-Nina.local --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-24 08:43:58.262  INFO MacBook-Air-Nina.local --- [           main] L.LW1Application                         : Started LW1Application in 2.271 seconds (process running for 2.709)
+2023-04-24 08:44:01.253  INFO MacBook-Air-Nina.local --- [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-24 08:44:01.255  INFO MacBook-Air-Nina.local --- [ionShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2023-04-24 08:44:01.259  INFO MacBook-Air-Nina.local --- [ionShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2023-04-24 08:59:46.730  INFO MacBook-Air-Nina.local --- [kground-preinit] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 8.0.0.Final
+2023-04-24 08:59:46.767  INFO MacBook-Air-Nina.local --- [           main] L.LW1Application                         : Starting LW1Application using Java 17.0.6 with PID 1795 (/Users/nina/Java/LW1/target/classes started by nina in /Users/nina/Java/LW1)
+2023-04-24 08:59:46.768  INFO MacBook-Air-Nina.local --- [           main] L.LW1Application                         : No active profile set, falling back to 1 default profile: "default"
+2023-04-24 08:59:47.201  INFO MacBook-Air-Nina.local --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-24 08:59:47.226  INFO MacBook-Air-Nina.local --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 21 ms. Found 1 JPA repository interfaces.
+2023-04-24 08:59:47.502  INFO MacBook-Air-Nina.local --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2023-04-24 08:59:47.507  INFO MacBook-Air-Nina.local --- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2023-04-24 08:59:47.507  INFO MacBook-Air-Nina.local --- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2023-04-24 08:59:47.507  INFO MacBook-Air-Nina.local --- [           main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-04-24 08:59:47.552  INFO MacBook-Air-Nina.local --- [           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2023-04-24 08:59:47.552  INFO MacBook-Air-Nina.local --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 765 ms
+2023-04-24 08:59:47.674  INFO MacBook-Air-Nina.local --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2023-04-24 08:59:47.852  INFO MacBook-Air-Nina.local --- [           main] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@39c7fb0b
+2023-04-24 08:59:47.853  INFO MacBook-Air-Nina.local --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2023-04-24 08:59:47.874  INFO MacBook-Air-Nina.local --- [           main] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-24 08:59:47.900  INFO MacBook-Air-Nina.local --- [           main] o.h.Version                              : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-04-24 08:59:48.035  INFO MacBook-Air-Nina.local --- [           main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-04-24 08:59:48.036  WARN MacBook-Air-Nina.local --- [           main] o.h.o.deprecation                        : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-04-24 08:59:48.303  INFO MacBook-Air-Nina.local --- [           main] o.h.m.i.EntityInstantiatorPojoStandard   : HHH000182: No default (no-argument) constructor for class: LW1.model.CalculationResultEntity (class must be instantiated by Interceptor)
+2023-04-24 08:59:48.354  INFO MacBook-Air-Nina.local --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-24 08:59:48.358  INFO MacBook-Air-Nina.local --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-24 08:59:48.367  INFO MacBook-Air-Nina.local --- [           main] L.s.CalculationServiceImpl               : Statistical data is sent
+2023-04-24 08:59:48.484  WARN MacBook-Air-Nina.local --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-24 08:59:48.705  INFO MacBook-Air-Nina.local --- [           main] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-04-24 08:59:48.739  INFO MacBook-Air-Nina.local --- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2023-04-24 08:59:48.748  INFO MacBook-Air-Nina.local --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-24 08:59:48.760  INFO MacBook-Air-Nina.local --- [           main] L.LW1Application                         : Started LW1Application in 2.165 seconds (process running for 2.842)
+2023-04-24 08:59:53.100  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-24 08:59:53.100  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2023-04-24 08:59:53.101  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 1 ms
+2023-04-24 08:59:53.163  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] L.s.CalculationServiceImpl               : Bulk request received!
+2023-04-24 08:59:53.164  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] L.s.CalculationServiceImpl               : Updated number of calls: 1
+2023-04-24 08:59:53.164  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] L.s.CalculationServiceImpl               : Statistical data is sent
+2023-04-24 08:59:53.211  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] L.s.CalculationServiceImpl               : The mean value was calculated
+2023-04-24 08:59:53.214  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] L.s.CalculationServiceImpl               : The mean value was calculated
+2023-04-24 08:59:53.216  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] L.s.CalculationServiceImpl               : The mean value was calculated
+2023-04-24 08:59:53.216  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] L.s.CalculationServiceImpl               : Data retrieved!
+2023-04-24 08:59:53.216  INFO MacBook-Air-Nina.local --- [nio-8080-exec-1] L.s.CalculationServiceImpl               : Statistical data is sent
+2023-04-24 10:20:53.511  INFO MacBook-Air-Nina.local --- [nio-8080-exec-5] L.s.CalculationServiceImpl               : Bulk request received!
+2023-04-24 10:20:53.512  INFO MacBook-Air-Nina.local --- [nio-8080-exec-5] L.s.CalculationServiceImpl               : Updated number of calls: 2
+2023-04-24 10:20:53.513  INFO MacBook-Air-Nina.local --- [nio-8080-exec-5] L.s.CalculationServiceImpl               : Statistical data is sent
+2023-04-24 10:20:53.519  INFO MacBook-Air-Nina.local --- [nio-8080-exec-5] L.s.CalculationServiceImpl               : The mean value was calculated
+2023-04-24 10:20:53.527  INFO MacBook-Air-Nina.local --- [nio-8080-exec-5] L.s.CalculationServiceImpl               : The mean value was calculated
+2023-04-24 10:20:53.527  INFO MacBook-Air-Nina.local --- [nio-8080-exec-5] L.s.CalculationServiceImpl               : Data retrieved!
+2023-04-24 10:20:53.527  INFO MacBook-Air-Nina.local --- [nio-8080-exec-5] L.s.CalculationServiceImpl               : Statistical data is sent
+2023-04-24 10:25:22.846  INFO MacBook-Air-Nina.local --- [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-24 10:25:22.848  INFO MacBook-Air-Nina.local --- [ionShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2023-04-24 10:25:22.852  INFO MacBook-Air-Nina.local --- [ionShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
